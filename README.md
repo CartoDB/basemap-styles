@@ -3,6 +3,10 @@ CARTO Basemap styles for web and mobile
 
 This repository has working copies of basemap cartographic styles for different targets
 
+## Source data
+
+The styles are based on current version of OpenMapTiles data schema and vector tiles: openmaptiles.org/schema 
+
 ## The cartography
 
 All the styles are "soft" in a sense that they are meant to be used as background or basemap below data layers. These are not really meant to be used as stand-alone map by itself, something you'l get from Google, Here and other general maps.
