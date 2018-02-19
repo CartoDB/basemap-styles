@@ -12,7 +12,7 @@ All the styles are "soft" in a sense that they are meant to be used as backgroun
 3. **Dark Matter** - dark gray map, good for polygon/line data
 
 
-<img src="/cartocss/web/voyager.tm2/.thumb.png" alt = "voyager" width="270"/> <img src="/cartocss/web/positron.tm2/.thumb.png" alt = "positron" width="270"/> <img src="/cartocss/web/dark-matter.tm2/.thumb.png" alt = "dark-matter" width="270"/>
+<img src="/cartocss/web-styles/voyager.tm2/.thumb.png" alt = "voyager" width="270"/> <img src="/cartocss/web-styles/positron.tm2/.thumb.png" alt = "positron" width="270"/> <img src="/cartocss/web-styles/dark-matter.tm2/.thumb.png" alt = "dark-matter" width="270"/>
 
 ## 1. Web raster basemaps
 
