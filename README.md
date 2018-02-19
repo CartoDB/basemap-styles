@@ -5,7 +5,7 @@ This repository has working copies of basemap cartographic styles for different 
 
 ## Source data
 
-The styles are based on current version of OpenMapTiles data schema and vector tiles: openmaptiles.org/schema 
+The styles are based on current version of OpenMapTiles data schema and vector tiles: https://openmaptiles.org/schema 
 
 ## The cartography
 
