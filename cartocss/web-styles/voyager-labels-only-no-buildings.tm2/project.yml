@@ -1,0 +1,41 @@
+_prefs: 
+  saveCenter: true
+_properties: 
+  bridge: 
+    "group-by": layer
+attribution: "<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>"
+bounds: 
+  - -180
+  - -85.0511
+  - 180
+  - 85.0511
+center: 
+  - -84.3897
+  - 33.745
+  - 18
+description: ''
+format: "png8:m=h"
+interactivity_layer: ''
+layers: 
+  - landcover
+  - landuse
+  - park
+  - boundary
+  - water
+  - waterway
+  - aeroway
+  - building
+  - transportation
+  - place
+  - poi
+  - transportation_name
+  - water_name
+  - housenumber
+maxzoom: 18
+minzoom: 0
+name: voyager-labels-only-no-buildings
+source: "http://tiles.basemaps.cartocdn.com/vector/carto.streets/v1/tiles.json"
+styles: 
+  - style.mss
+  - labels.mss
+template: ''

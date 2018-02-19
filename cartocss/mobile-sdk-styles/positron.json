@@ -1,0 +1,122 @@
+{
+  "layers": [
+    "housenumber", 
+    "transportation_name", 
+    "water_name", 
+    "poi", 
+    "place", 
+    "transportation", 
+    "building", 
+    "aeroway", 
+    "waterway", 
+    "water", 
+    "boundary", 
+    "park", 
+    "landuse", 
+    "landcover"
+  ], 
+  "styles": [
+    "positron/style.mss", 
+    "shared/admin.mss", 
+    "shared/hydro.mss", 
+    "shared/landuse.mss", 
+    "shared/roads.mss", 
+    "shared/labels.mss"
+  ], 
+  "nutiparameters": {
+    "lang": {
+      "default": "en"
+    }, 
+    "buildings": {
+      "default": 1, 
+      "values": {
+        "1": 1, 
+        "0": 0, 
+        "2": 2
+      }
+    }, 
+    "fallback_lang": {
+      "default": "en"
+    }, 
+    "texts3d": {
+      "default": "nutibillboard", 
+      "values": {
+        "1": "nutibillboard", 
+        "0": "point"
+      }
+    }, 
+    "markers3d": {
+      "default": "nutibillboard", 
+      "values": {
+        "1": "nutibillboard", 
+        "0": "point"
+      }
+    }, 
+    "shields3d": {
+      "default": "nutibillboard", 
+      "values": {
+        "1": "nutibillboard", 
+        "0": "point"
+      }
+    }
+  }, 
+  "name": "positron", 
+  "files": {
+    "shared/hydro.mss": {
+      "md5": "269ca4560872d0a276467fac899c2393", 
+      "size": 1033
+    }, 
+    "shared/roads.mss": {
+      "md5": "7443aef4ee152461518b0d5ddf5e6807", 
+      "size": 8506
+    }, 
+    "positron/style.mss": {
+      "md5": "01c7224b6621e03fa6641c20c2d35250", 
+      "size": 6486
+    }, 
+    "fonts/Montserrat-Medium.ttf": {
+      "md5": "5f797490f806b3b229299f0a66de89c9", 
+      "size": 192488
+    }, 
+    "fonts/LICENSE_OFL.txt": {
+      "md5": "e4429555d14db1f02c5213788d343350", 
+      "size": 4393
+    }, 
+    "images/city-square.png": {
+      "md5": "dddf2625f7c43c0f6469495825e22ab8", 
+      "size": 92
+    }, 
+    "fonts/Montserrat-SemiBold.ttf": {
+      "md5": "31e34a4dc526ffb104e2d988f6f52516", 
+      "size": 192268
+    }, 
+    "shared/landuse.mss": {
+      "md5": "2b709308df94e21b09ec60d3acfbe8dc", 
+      "size": 2457
+    }, 
+    "fonts/NotoSans-Plus.ttf": {
+      "md5": "f3e4252c0d67203819400857159a9194", 
+      "size": 2739564
+    }, 
+    "fonts/Montserrat-Regular.ttf": {
+      "md5": "f7213526ec9296ff43426bfe3eae8926", 
+      "size": 190648
+    }, 
+    "images/dark-matter-square-3.png": {
+      "md5": "57f1c4c9cca990e9205aa7e6e1a4adff", 
+      "size": 125
+    }, 
+    "shared/admin.mss": {
+      "md5": "d220777dfe5cd35516b06d705992d65d", 
+      "size": 1245
+    }, 
+    "fonts/Montserrat-Italic.ttf": {
+      "md5": "8777b44e5f19cd64f83171126db732f0", 
+      "size": 191936
+    }, 
+    "shared/labels.mss": {
+      "md5": "81db72e4260f9c2f0a548617c4d922e8", 
+      "size": 11288
+    }
+  }
+}

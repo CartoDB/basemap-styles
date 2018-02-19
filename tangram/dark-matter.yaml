@@ -1,0 +1,1633 @@
+global:
+    landmass_fill: "#0e0e0e"
+    aeroways: "#111"
+    greenarea_fade_1: "#0e0e0e"
+    greenarea_fade_2: "#0e0e0e"
+    greenarea_fade_3: "#0e0e0e"
+    greenarea_fade_4: "#0e0e0e"
+    green_area_highzoom: "#0e0e0e"
+
+    building: "#000"
+    building-shadow: transparent
+    building_fill_a: transparent
+    building_shadow_line: "#0e0e0e"
+
+    admin0_3: "#222"
+    admin0_4: "#292929"
+    admin0_5: "#292929"
+    admin0_6: "#0e0e0e"
+    admin0_7: "#292929"
+    admin1_low: "#222"
+    admin1_high: "#292929"
+
+    water: "#212121"
+    rivers_stroke: "#151515"
+    water_shadow: transparent
+    ocean_line: transparent
+
+    motorway: "#0b0b0b"
+    motorway_case: "#232323"
+    main: "#0b0b0b"
+    main_case: "#232323"
+    main_case_lowzoom: "#1a1a1a"
+    secondary: "#0b0b0b"
+    secondary_case: "#232323"
+    street: "#0b0b0b"
+    minor_case: "#1c1c1c"
+    path: "#262626"
+    rail: "#1a1a1a"
+    rail_dash: "#111"
+    tunnel: "#161616"
+
+    05_hwy_f: 0.5px
+    07_hwy_f: 0.5px
+    08_hwy_f: 1px
+    09_hwy_f: 1.2px
+    10_hwy_f: 1.8px
+    11_hwy_f: 1.5px
+    12_hwy_f: 2px
+    13_hwy_f: 3px
+    14_hwy_f: 4px
+    15_hwy_f: 5px
+    16_hwy_f: 8px
+    17_hwy_f: 12px
+    18_hwy_f: 20px
+
+    14_hwy_f_ramp: 2px
+    15_hwy_f_ramp: 2.5px
+    16_hwy_f_ramp: 4px
+    17_hwy_f_ramp: 6px
+    18_hwy_f_ramp: 10px
+
+    05_trunk: 0.5px
+    07_primary: 0.5px
+    07_maj_f: 0.8px
+    08_maj_f: 1px
+    10_maj_f: 1.2px
+    10_primary: 1px
+    11_maj_f: 1.5px
+    12_maj_f: 2px
+    13_maj_f: 3px
+    14_maj_f: 4px
+    15_maj_f: 5px
+    16_maj_f: 7px
+    17_maj_f: 10px
+    18_maj_f: 15px
+
+    10_sec_f: 0.5px
+    11_sec_f: 1.2px
+    12_sec_f: 1.5px
+    13_sec_f: 2px
+    14_sec_f: 3px
+    15_sec_f: 4px
+    16_sec_f: 6px
+    17_sec_f: 10px
+    18_sec_f: 15px
+
+    12_min_f: 0.8px
+    13_min_f: 1px
+    14_min_f: 1.5px
+    15_min_f: 2px
+    16_min_f: 3px
+    17_min_f: 5px
+    18_min_f: 10px
+
+    15_serv_f: 1px #(15_min_f/4*2)-outline/2
+    16_serv_f: 1.5px #(16_min_f/2)-outline/2
+    17_serv_f: 2.5px #(17_min_f/2*2)-outline/2
+    18_serv_f: 3.5px #(18_min_f/3*2)-outline/2
+
+    dark_text: "#3a3a3a"
+    med_text: "#444"
+    light_text: "#555"
+
+    continent_text: "#555"
+    continent_halo: "#111"
+
+    country_text_dark: "#555"
+    country_text_med: "#444"
+    country_text_light: "#3a3a3a"
+    country_halo: "#111"
+
+    state_text: "#444"
+    state_text_light: "#444"
+    state_halo: "#111"
+
+    place_text: "#666"
+    place_halo: "#222"
+
+    marine_labels: "#3c3c3c"
+    marine_labels_halo: "#111"
+
+    water_label: "#444"
+    water_halo: "#181818"
+
+    road_text_light: "#383838"
+    road_text_med: "#383838"
+    road_text: "#383838"
+    motorway_halo: "#111"
+    primary_halo: "#111"
+    minor_halo: "#111"
+    tunnel_halo: "#111"
+
+    poi_light: "#515151"
+    poi_dark: "#515151"
+    poi_halo: "#151515"
+
+    housenumber: transparent
+    housenumber_halo: transparent
+
+    #rgba(243, 234, 220, alpha) - original cartocss code
+    urban_fade_1: "#000"
+    urban_fade_2: "#000"
+    urban_fade_3: "#000"
+    urban_fade_4: "#000"
+    urban_fade_5: "#000"
+    urban_fade_6: "#000"
+    urban_fade_7: "#000"
+
+scene:
+    background:
+        color: global.landmass_fill
+
+fonts:
+    Montserrat Regular:
+        - weight: normal
+          url: https://ntvt.s3-eu-west-1.amazonaws.com/fonts/Montserrat-Regular.ttf
+    Montserrat Italic:
+        - weight: normal
+          url: https://ntvt.s3-eu-west-1.amazonaws.com/fonts/Montserrat-Italic.ttf
+    Montserrat Medium:
+        - weight: normal
+          url: https://ntvt.s3-eu-west-1.amazonaws.com/fonts/Montserrat-Medium.ttf
+    Montserrat SemiBold:
+        - weight: normal
+          url: https://ntvt.s3-eu-west-1.amazonaws.com/fonts/Montserrat-SemiBold.ttf
+    Montserrat MediumItalic:
+        - weight: normal
+          url: https://ntvt.s3-eu-west-1.amazonaws.com/fonts/Montserrat-MediumItalic.ttf
+
+sources:
+    carto:
+        type: MVT
+        url: https://tiles.basemaps.cartocdn.com/vectortiles/carto.streets/v1/{z}/{x}/{y}.mvt
+        max_zoom: 14
+        tile_size: 256
+
+styles:
+    adminlines:
+        base: lines
+        blend: overlay
+    transparent:
+        base: polygons
+        blend: overlay
+    _dash:
+        base: lines
+        dash: [2, 1]
+    admin_dash:
+        base: lines
+        dash: [2, 2]
+    rail:
+        base: lines
+        dash: [4, 3]
+        dash_background_color: global.rail_dash
+    text-blend-order:
+        base: text
+        blend_order: 1
+
+layers:
+    water:
+        #base: polygons
+        data: { source: carto, layer: water }
+        ocean:
+            filter: { class: ocean}
+            draw:
+                polygons:
+                    order: 5
+                    color: global.water
+        inter:
+            filter:
+                any:
+                    - class: lake
+                    - class: river
+            draw:
+                polygons:
+                    order: 5
+                    color: global.water
+                    #extrude: true
+
+    water_name_ocean:
+        data: { source: carto, layer: water_name}
+        filter:
+            {class: 'ocean', $zoom: { min: 1, max: 8 }}
+        draw:
+            text:
+                move_into_tile: false
+                priority: 1
+                text_source: name
+                buffer: 1px
+                text_wrap: 11
+                collide: false
+                font:
+                    size: [[1, 11px], [3, 16px], [4, 18px], [5, 20px]]
+                    fill: global.marine_labels
+                    family: Montserrat Italic
+                    stroke: { color: global.marine_labels_halo, width: 2 }
+    water_name_sea:
+        data: { source: carto, layer: water_name}
+        filter: {class: 'sea', $zoom: { min: 5, max: 8 }}
+        draw:
+            text:
+                move_into_tile: false
+                priority: 1
+                text_source: name
+                buffer: 1px
+                text_wrap: 11
+                collide: false
+                font:
+                    size: [[5, 12px]]
+                    fill: global.marine_labels
+                    family: Montserrat Italic
+                    stroke: { color: global.marine_labels_halo, width: 2 }
+
+    water_name_lakes:
+        data: { source: carto, layer: water_name}
+        filter:
+            class: 'lake'
+        draw:
+            text:
+                move_into_tile: false
+                collide: false
+                priority: 1
+                text_source: name
+                buffer: 3px
+                text_wrap: 13
+                font:
+                    size: [[9, 9px], [17, 10px], [18, 12px]]
+                    fill: global.water_label
+                    family: Montserrat Italic
+                    stroke: { color: global.water_halo, width: 2 }
+
+    waterway:
+        data: { source: carto, layer: waterway }
+        river:
+            filter: { class: river}
+            draw:
+                lines:
+                    order: 4
+                    color: global.rivers_stroke
+                    width: [[7,0.5px],[8,1px],[15,2px]]
+                text:
+                    text_source: name
+                    #buffer: 3px
+                    font:
+                        size: [[11, 0px],[12, 8px],[14, 9px], [16, 10px], [17, 11px]]
+                        fill: global.water_label
+                        family: Montserrat Italic
+                        stroke: { color: global.water_halo, width: 2 }
+        canal:
+            filter: { class: canal}
+            draw:
+                lines:
+                    order: 4
+                    color: global.rivers_stroke
+                    width: [[7,0.5px],[8,1px],[15,2px]]
+        stream:
+            filter: { class: stream}
+            draw:
+                lines:
+                    order: 4
+                    color: global.rivers_stroke
+                    width: [[7,0.5px],[8,1px],[15,2px]]
+
+    landcover:
+        filter:
+            any:
+                - { class: 'wood', $zoom: { min: 5 } }
+                - { class: 'grass', $zoom: { min: 11 } }
+                - { subclass: 'recreation_ground', $zoom: { min: 12 } }
+
+        data: { source: carto , layer: landcover}
+        draw:
+            polygons:
+                order: 1
+                color: [[8,global.greenarea_fade_1], [9,global.greenarea_fade_2], [10,global.greenarea_fade_2],[11,global.greenarea_fade_3],[12,global.greenarea_fade_3],[13,global.greenarea_fade_4],[14,global.greenarea_fade_4],[15,global.green_area_highzoom]
+                ]
+    park:
+        filter:
+            any:
+                - { class: 'nature_reserve', $zoom: { min: 5 } }
+                - { class: 'national_park', $zoom: { min: 9 } }
+        data: { source: carto , layer: park}
+        draw:
+            polygons:
+                order: 1
+                color: [[6,global.greenarea_fade_1], [7,global.greenarea_fade_2], [8,global.greenarea_fade_3],[9,global.greenarea_fade_4],[10,global.greenarea_fade_4],[11,global.green_area_highzoom]
+                ]
+    landuse:
+        data: { source: carto , layer: landuse}
+        green:
+            filter:
+                any:
+                    - { class: 'cemetery' }
+                    - { class: 'stadium' }
+            draw:
+                polygons:
+                    order: 1
+                    color: [[8,global.greenarea_fade_1], [9,global.greenarea_fade_2], [10,global.greenarea_fade_2],[11,global.greenarea_fade_3],[12,global.greenarea_fade_3],[13,global.greenarea_fade_4],[14,global.greenarea_fade_4],[15,global.green_area_highzoom]
+                    ]
+        residential:
+            filter: { class: 'residential', $zoom: { min: 6 } }
+            draw:
+                polygons:
+                    order: 1
+                    color: [[5, global.urban_fade_1],
+                        [6, global.urban_fade_1],
+                        [7, global.urban_fade_1],
+                        [8, global.urban_fade_2],
+                        [9, global.urban_fade_3],
+                        [10, global.urban_fade_3],
+                        [11, global.urban_fade_4],
+                        [12, global.urban_fade_4],
+                        [13, global.urban_fade_5],
+                        [14, global.urban_fade_5],
+                        [15, global.urban_fade_6],
+                        [16, global.urban_fade_7]
+                    ]
+    boundary-country:
+        data: { source: carto,layer: boundary}
+        low:
+            filter: { admin_level: 2, $zoom: { max: 6 }, maritime: 0}
+            draw:
+                lines:
+                    order: 3
+                    color: [[4, global.admin0_4], 
+                        [5, global.admin0_5],
+                        [6, global.admin0_5],
+                        [7, global.admin0_7]
+                    ]
+                    width: [[6,1px], [6.1,2px]]
+
+        high:
+            filter: { admin_level: 2, $zoom: { min: 6 }, maritime: 0}
+            draw:
+                lines:
+                    style: adminlines
+                    order: 3
+                    color: global.admin0_7
+                    width: 1.5px
+                    #join: none
+
+                    cap: butt
+                    outline:
+                        order: 3
+                        join: round
+                        color: [[4,global.admin0_4], [5,global.admin0_5],
+                        [6,global.admin0_6]]
+                        width: [[6,2px], [9,4px]]
+    boundary-states:
+        data: { source: carto,layer: boundary}
+        low:
+            filter: { admin_level: 4, $zoom: { min: 4, max: 7 }, maritime: 0}
+            draw:
+                lines:
+                    join: round
+                    order: 1
+                    color: [[4,global.admin1_low], [6,global.admin1_high]]
+                    width: [
+                        [6,0.5px],
+                        [7,1px],
+                        [8,1px],
+                        [9,1.2px]
+                    ]
+    boundary-states_z7:
+        data: { source: carto,layer: boundary}
+        low:
+            filter: { admin_level: 4, $zoom: { min: 7 }, maritime: 0}
+            draw:
+                admin_dash:
+                    order: 30
+                    color: global.admin1_high
+                    width: [[6,0.5px], [7,1px], [8,1px], [9,1.2px]]
+
+    boundary-admin6:
+        data: { source: carto,layer: boundary}
+        low:
+            filter: { admin_level: 6, $zoom: { min: 9 }, maritime: 0}
+            draw:
+                admin_dash:
+                    order: 30
+                    color: global.admin1_high
+                    width: 1px
+
+    aeroway:
+        data: { source: carto,layer: aeroway}
+        runway:
+            filter: { class: 'runway' }
+            draw:
+                lines:
+                    order: 6
+                    color: global.aeroways
+                    width: [[12,1px], [13,2px], [14,4px], [15, 6px], [16,6px]]
+        taxiway:
+            filter: { class: 'taxiway',$zoom: { min: 13 } }
+            draw:
+                lines:
+                    order: 6
+                    color: global.aeroways
+                    width: [[13,0.5px], [14,1px], [15,2px],  [16,4px]]
+
+    transportation:
+        data: { source: carto}
+        motorway:
+            filter:
+                class: 'motorway'
+                $zoom: {min: 5}
+                not: {brunnel: 'bridge'}
+            draw:
+                lines:
+                    color: global.motorway
+                    order: 80
+                    width: [
+                        [5,global.05_hwy_f],
+                        [6,global.05_hwy_f],
+                        [7,global.07_hwy_f],
+                        [8,global.08_hwy_f],
+                        [9,global.09_hwy_f],
+                        [10,global.10_hwy_f],
+                        [11,global.11_hwy_f],
+                        [12,global.12_hwy_f],
+                        [13,global.13_hwy_f],
+                        [14,global.14_hwy_f],
+                        [15,global.15_hwy_f],
+                        [16,global.16_hwy_f],
+                        [17,global.17_hwy_f],
+                        [18,global.18_hwy_f]
+                    ]
+                    cap: butt
+                    join: round
+                    outline:
+                        order: 5
+                        color: global.motorway_case
+                        width: [
+                            [10,0px],
+                            [11,1px],
+                            [12,1.25px],
+                            [13,1.25px],
+                            [14,1.5px],
+                            [15,1.5px],
+                            [16,2px],
+                            [17,2px],
+                            [18,2.5px]
+                        ]
+            not_link:
+                filter: {ramp: 1, $zoom: {max: 12} } 
+                draw:
+                    lines:
+                        width: 0px
+            link:
+                filter: {ramp: 1, $zoom: {min: 12} } # on- and off-ramps, etc
+                draw:
+                    lines:
+                        order: 18
+                        color: global.motorway
+                        cap: butt
+                        join: round
+                        width: [
+                            [12,0.8px],
+                            [13,0.8px],
+                            [14,global.14_hwy_f_ramp],
+                            [15,global.15_hwy_f_ramp],
+                            [16,global.16_hwy_f_ramp],
+                            [17,global.17_hwy_f_ramp],
+                            [18,global.18_hwy_f_ramp]
+                        ]
+                        outline:
+                            order: 5
+                            color: global.motorway_case
+                            width: [
+                                [12,0.5px],
+                                [13,0.5px],
+                                [14,0.75px],
+                                [15,0.75px],
+                                [16,1px],
+                                [17,1px]
+                            ]
+                tunnel-link:
+                    filter: {brunnel: 'tunnel', $zoom: {min: 13} }
+
+        motorway_bridge:
+            filter: 
+                class: 'motorway'
+                brunnel: 'bridge'
+            draw:
+                lines:
+                    color: global.motorway
+                    order: 80
+                    width: [
+                        [5,global.05_hwy_f],
+                        [6,global.05_hwy_f],
+                        [7,global.07_hwy_f],
+                        [8,global.08_hwy_f],
+                        [9,global.09_hwy_f],
+                        [10,global.10_hwy_f],
+                        [11,global.11_hwy_f],
+                        [12,global.12_hwy_f],
+                        [13,global.13_hwy_f],
+                        [14,global.14_hwy_f],
+                        [15,global.15_hwy_f],
+                        [16,global.16_hwy_f],
+                        [17,global.17_hwy_f],
+                        [18,global.18_hwy_f]
+                    ]
+                    cap: butt
+                    join: round
+                    outline:
+                        order: 5
+                        color: global.motorway_case
+                        width: [
+                            [10,0px],
+                            [11,1px],
+                            [12,1.25px],
+                            [13,1.25px],
+                            [14,1.5px],
+                            [15,1.5px],
+                            [16,2px],
+                            [17,2px],
+                            [18,2.5px]
+                        ]
+            not_link:
+                filter: {ramp: 1, $zoom: {max: 12} } 
+                draw:
+                    lines:
+                        width: 0px
+            link:
+                filter: {ramp: 1, $zoom: {min: 12} } # on- and off-ramps, etc
+                draw:
+                    lines:
+                        order: 17
+                        color: global.motorway
+                        cap: butt
+                        join: round
+                        width: [
+                            [12,0.8px],
+                            [13,0.8px],
+                            [14,global.14_hwy_f_ramp],
+                            [15,global.15_hwy_f_ramp],
+                            [16,global.16_hwy_f_ramp],
+                            [17,global.17_hwy_f_ramp],
+                            [18,global.18_hwy_f_ramp]
+                        ]
+                        outline:
+                            order: 5
+                            color: global.motorway_case
+                            width: [
+                                [12,0.5px],
+                                [13,0.5px],
+                                [14,0.75px],
+                                [15,0.75px],
+                                [16,1px],
+                                [17,1px]
+                            ]
+                tunnel-link:
+                    filter: {brunnel: 'tunnel', $zoom: {min: 13} }
+
+        trunk:
+            filter:
+                class: trunk
+                $zoom: {min: 5}
+                not: {brunnel: 'bridge'}
+            draw:
+                lines:
+                    color: global.motorway
+                    order: 70
+                    width: [
+                        [5,global.05_trunk],
+                        [6,global.05_trunk],
+                        [7,global.07_maj_f],
+                        [8,global.08_maj_f],
+                        [9,global.08_maj_f],
+                        [10,global.10_maj_f],
+                        [11,global.11_maj_f],
+                        [12,global.12_maj_f],
+                        [13,global.13_maj_f],
+                        [14,global.14_maj_f],
+                        [15,global.15_maj_f],
+                        [16,global.16_maj_f],
+                        [17,global.17_maj_f],
+                        [18,global.18_maj_f],
+                        [19,global.18_maj_f]
+                    ]
+                    cap: butt
+                    join: round
+                    outline:
+                        order: 5
+                        color: global.motorway_case
+                        width: [
+                            [5,0px],
+                            [6,0px],
+                            [10,0px],
+                            [11,0.75px],
+                            [12,1px],
+                            [13,1px],
+                            [14,1.25px],
+                            [15,1.25px],
+                            [16,1.25px],
+                            [17,1.5px]
+                        ]
+            not_link:
+                filter: {ramp: 1, $zoom: {max: 12} }
+                draw:
+                    lines:
+                        width: 0px
+
+            link:
+                filter: {ramp: 1, $zoom: {min: 12} } # on- and off-ramps, etc
+                draw:
+                    lines:
+                        order: 16
+                        color: global.motorway
+                        width: [
+                            [12,0.8px],
+                            [13,0.8px],
+                            [14,global.14_hwy_f_ramp],
+                            [15,global.15_hwy_f_ramp],
+                            [16,global.16_hwy_f_ramp],
+                            [17,global.17_hwy_f_ramp],
+                            [18,global.18_hwy_f_ramp]
+                        ]
+                        cap: butt
+                        join: round
+                        outline:
+                            order: 5
+                            color: global.motorway_case
+                            width: [
+                                [12,0.5px],
+                                [13,0.5px],
+                                [14,0.75px],
+                                [15,0.75px],
+                                [16,1px]
+                            ]
+            tunnel-link:
+                filter: {brunnel: 'tunnel', $zoom: {min: 13} }
+
+        trunk_bridge:
+            filter:
+                class: trunk
+                brunnel: 'bridge'
+            draw:
+                lines:
+                    color: global.motorway
+                    order: 20
+                    width: [
+                        [5,global.05_trunk],
+                        [6,global.05_trunk],
+                        [7,global.07_maj_f],
+                        [8,global.08_maj_f],
+                        [9,global.08_maj_f],
+                        [10,global.10_maj_f],
+                        [11,global.11_maj_f],
+                        [12,global.12_maj_f],
+                        [13,global.13_maj_f],
+                        [14,global.14_maj_f],
+                        [15,global.15_maj_f],
+                        [16,global.16_maj_f],
+                        [17,global.17_maj_f],
+                        [18,global.18_maj_f],
+                        [19,global.18_maj_f]
+                    ]
+                    cap: butt
+                    join: round
+                    outline:
+                        order: 5
+                        color: global.motorway_case
+                        width: [
+                            [5,0px],
+                            [6,0px],
+                            [10,0px],
+                            [11,0.75px],
+                            [12,1px],
+                            [13,1px],
+                            [14,1.25px],
+                            [15,1.25px],
+                            [16,1.25px],
+                            [17,1.5px]
+                        ]
+            not_link:
+                filter: {ramp: 1, $zoom: {max: 12} } 
+                draw:
+                    lines:
+                        width: 0px
+            link:
+                filter: {ramp: 1, $zoom: {min: 12} } # on- and off-ramps, etc
+                draw:
+                    lines:
+                        order: 15
+                        color: global.motorway
+                        width: [
+                            [12,0.8px],
+                            [13,0.8px],
+                            [14,global.14_hwy_f_ramp],
+                            [15,global.15_hwy_f_ramp],
+                            [16,global.16_hwy_f_ramp],
+                            [17,global.17_hwy_f_ramp],
+                            [18,global.18_hwy_f_ramp]
+                        ]
+                        cap: butt
+                        join: round
+                        outline:
+                            order: 5
+                            color: global.motorway_case
+                            width: [
+                                [12,0.5px],
+                                [13,0.5px],
+                                [14,0.75px],
+                                [15,0.75px],
+                                [16,1px]
+                            ]
+                tunnel-link:
+                    filter: {brunnel: 'tunnel', $zoom: {min: 13} }
+
+        primary:
+            filter:
+                class: primary
+                $zoom: {min: 5}
+                not: {brunnel: 'bridge'}
+            draw:
+                lines:
+                    color: global.main
+                    order: 60
+                    width: [
+                        [5,global.05_trunk],
+                        [6,global.05_trunk],
+                        [7,global.07_maj_f],
+                        [8,global.08_maj_f],
+                        [9,global.08_maj_f],
+                        [10,global.10_maj_f],
+                        [11,global.11_maj_f],
+                        [12,global.12_maj_f],
+                        [13,global.13_maj_f],
+                        [14,global.14_maj_f],
+                        [15,global.15_maj_f],
+                        [16,global.16_maj_f],
+                        [17,global.17_maj_f],
+                        [18,global.18_maj_f],
+                        [19,global.18_maj_f]
+                    ]
+                    cap: butt
+                    join: round
+                    outline:
+                        order: 5
+                        color: global.main_case
+                        width: [
+                            [5,0px],
+                            [6,0px],
+                            [10,0px],
+                            [11,0.75px],
+                            [12,1px],
+                            [13,1px],
+                            [14,1.25px],
+                            [15,1.25px],
+                            [16,1.25px],
+                            [17,1.5px]
+                        ]
+            not_link:
+                filter: {ramp: 1, $zoom: {max: 12} }
+                draw:
+                    lines:
+                        width: 0px
+
+            link:
+                filter: {ramp: 1, $zoom: {min: 12} } # on- and off-ramps, etc
+                draw:
+                    lines:
+                        order: 14
+                        color: global.main
+                        width: [
+                            [12,0.8px],
+                            [13,0.8px],
+                            [14,global.14_hwy_f_ramp],
+                            [15,global.15_hwy_f_ramp],
+                            [16,global.16_hwy_f_ramp],
+                            [17,global.17_hwy_f_ramp],
+                            [18,global.18_hwy_f_ramp]
+                        ]
+                        cap: butt
+                        join: round
+                        outline:
+                            order: 5
+                            color: global.main_case
+                            width: [
+                                [12,0.5px],
+                                [13,0.5px],
+                                [14,0.75px],
+                                [15,0.75px],
+                                [16,1px],
+                                [17,1px]
+                            ]
+            tunnel-link:
+                filter: {brunnel: 'tunnel', $zoom: {min: 13} }
+
+        primary_bridge:
+            filter:
+                class: primary
+                brunnel: 'bridge'
+            draw:
+                lines:
+                    color: global.main
+                    order: 20
+                    width: [
+                        [5,global.05_trunk],
+                        [6,global.05_trunk],
+                        [7,global.07_maj_f],
+                        [8,global.08_maj_f],
+                        [9,global.08_maj_f],
+                        [10,global.10_maj_f],
+                        [11,global.11_maj_f],
+                        [12,global.12_maj_f],
+                        [13,global.13_maj_f],
+                        [14,global.14_maj_f],
+                        [15,global.15_maj_f],
+                        [16,global.16_maj_f],
+                        [17,global.17_maj_f],
+                        [18,global.18_maj_f]
+                    ]
+                    cap: butt
+                    join: round
+                    outline:
+                        order: 5
+                        color: global.main_case
+                        width: [
+                            [5,0px],
+                            [6,0px],
+                            [10,0px],
+                            [11,0.75px],
+                            [12,1px],
+                            [13,1px],
+                            [14,1.25px],
+                            [15,1.25px],
+                            [16,1.25px],
+                            [17,1.5px],
+                            [18,1.5px]
+                        ]
+            not_link:
+                filter: {ramp: 1, $zoom: {max: 12} } 
+                draw:
+                    lines:
+                        width: 0px
+            link:
+                filter: {ramp: 1, $zoom: {min: 12} } # on- and off-ramps, etc
+                draw:
+                    lines:
+                        order: 13
+                        color: global.main
+                        width: [
+                            [12,0.8px],
+                            [13,0.8px],
+                            [14,global.14_hwy_f_ramp],
+                            [15,global.15_hwy_f_ramp],
+                            [16,global.16_hwy_f_ramp],
+                            [17,global.17_hwy_f_ramp],
+                            [18,global.18_hwy_f_ramp]
+                        ]
+                        cap: butt
+                        join: round
+                        outline:
+                            order: 5
+                            color: global.main_case
+                            width: [
+                                [12,0.5px],
+                                [13,0.5px],
+                                [14,0.75px],
+                                [15,0.75px],
+                                [16,1px],
+                                [17,1px]
+                            ]
+                tunnel-link:
+                    filter: {brunnel: 'tunnel', $zoom: {min: 13} }
+
+        secondary:
+            filter: { class: secondary }
+            draw:
+                lines:
+                    color: global.secondary
+                    order: 50
+                    width: [
+                        [10,global.10_sec_f],
+                        [11,global.11_sec_f],
+                        [12,global.12_sec_f],
+                        [13,global.13_sec_f],
+                        [14,global.14_sec_f],
+                        [15,global.15_sec_f],
+                        [16,global.16_sec_f],
+                        [17,global.17_sec_f],
+                        [18,global.18_sec_f]
+                    ]
+                    cap: butt
+                    join: round
+                    outline:
+                        order: 5
+                        color: global.secondary_case
+                        width: [
+                            [10,0px],
+                            [12,0.75px],
+                            [13,1px],
+                            [14,1.25px],
+                            [15,1.25px],
+                            [16,1.25px],
+                            [17,1.5px],
+                            [18,1.5px]
+                        ]
+            link:
+                filter: { ramp: 1 } # on- and off-ramps, etc
+                draw:
+                    lines:
+                        order: 12
+                        color: global.main
+                        width: [
+                            [12,0.8px],
+                            [13,0.8px],
+                            [14,global.14_hwy_f_ramp],
+                            [15,global.15_hwy_f_ramp],
+                            [16,global.16_hwy_f_ramp],
+                            [17,global.17_hwy_f_ramp],
+                            [18,global.18_hwy_f_ramp]
+                        ]
+                        cap: butt
+                        join: round
+                        outline:
+                            order: 5
+                            width: [
+                                [12,0.5px],
+                                [13,0.5px],
+                                [14,0.75px],
+                                [15,0.75px],
+                                [16,1px],
+                                [17,1px]
+                            ]
+                tunnel-link:
+                    filter: {brunnel: 'tunnel', $zoom: {min: 13} }
+
+        tertiary:
+            filter: { class: tertiary }
+            draw:
+                lines:
+                    color: global.street
+                    order: 40
+                    width: [
+                        [10,global.10_sec_f],
+                        [11,global.11_sec_f],
+                        [12,global.12_sec_f],
+                        [13,global.13_sec_f],
+                        [14,global.14_sec_f],
+                        [15,global.15_sec_f],
+                        [16,global.16_sec_f],
+                        [17,global.17_sec_f],
+                        [18,global.18_sec_f]
+                    ]
+                    cap: butt
+                    join: round
+                    outline:
+                        order: 5
+                        color: global.secondary_case
+                        width: [
+                            [10,0px],
+                            [12,0.75px],
+                            [13,1px],
+                            [14,1.25px],
+                            [15,1.25px],
+                            [16,1.25px],
+                            [17,1.5px],
+                            [18,1.5px]
+                        ]
+            link:
+                filter: { ramp: 1 } # on- and off-ramps, etc
+                draw:
+                    lines:
+                        order: 11
+                        color: global.street
+                        width: [
+                            [12,0.8px],
+                            [13,0.8px],
+                            [14,global.14_hwy_f_ramp],
+                            [15,global.15_hwy_f_ramp],
+                            [16,global.16_hwy_f_ramp],
+                            [17,global.17_hwy_f_ramp],
+                            [18,global.18_hwy_f_ramp]
+                        ]
+                        cap: butt
+                        join: round
+                        outline:
+                            order: 5
+                            width: [
+                                [12,0.5px],
+                                [13,0.5px],
+                                [14,0.75px],
+                                [15,0.75px],
+                                [16,1px],
+                                [17,1px]
+                            ]
+                tunnel-link:
+                    filter: {brunnel: 'tunnel', $zoom: {min: 13} }
+        minor:
+            filter: { class: minor }
+            draw:
+                lines:
+                    color: global.street
+                    order: 30
+                    width: [
+                            [12,global.12_min_f],
+                            [13,global.13_min_f],
+                            [14,global.14_min_f],
+                            [15,global.15_min_f],
+                            [16,global.16_min_f],
+                            [17,global.17_min_f],
+                            [18,global.18_min_f]
+                    ]
+                    cap: butt
+                    join: round
+                    outline:
+                        order: 5
+                        color: global.secondary_case
+                        width: [
+                                [12,0.5px],
+                                [13,0.5px],
+                                [14,0.75px],
+                                [15,1px],
+                                [16,1px],
+                                [17,1.5px]
+                        ]
+
+            link:
+                filter: { ramp: 1 }
+                draw:
+                    lines:
+                        order: 10
+                        color: global.street
+                        width: [
+                            [12,global.12_min_f],
+                            [13,global.13_min_f],
+                            [14,global.14_min_f],
+                            [15,global.15_min_f],
+                            [16,global.16_min_f],
+                            [17,global.17_min_f],
+                            [18,global.18_min_f]
+                        ]
+                        cap: butt
+                        join: round
+                        outline:
+                            order: 5
+                            width: [
+                                [12,0.5px],
+                                [13,0.5px],
+                                [14,0.75px],
+                                [15,1px],
+                                [16,1px],
+                                [17,1.5px]
+                            ]
+        service:
+            filter: { class: service, $zoom: {min: 15} }
+            draw:
+                lines:
+                    color: global.street
+                    order: 20
+                    width: [
+                        [15,global.15_serv_f],
+                        [16,global.16_serv_f],
+                        [17,global.17_serv_f],
+                        [18,global.18_serv_f]
+                    ]
+                    cap: butt
+                    join: round
+                    outline:
+                        order: 5
+                        color: global.minor_case
+                        width: [
+                            [15,0px],
+                            [16,0.5px],
+                            [17,1px],
+                            [18,1px]
+                        ]
+        path:
+            filter: { class: path, $zoom: {min: 15} }
+            draw:
+                _dash:
+                    width: 5px
+                    color: global.path
+                    order: 10
+                    width: [
+                        [15, 1.2px],
+                        [16, 1.5px],
+                        [17, 2px],
+                        [18, 2.5px]
+                    ]
+                    cap: butt
+                    join: round
+        rail:
+            filter: { class: rail, $zoom: {min: 12, max: 16} }
+            draw:
+                lines:
+                    color: global.rail
+                    order: 100
+                    width: [
+                        [12, 0.5px],
+                        [15, 1px],
+                        [16, 1.5px]
+                    ]
+                    cap: butt
+                    join: round
+        rail_bridge:
+            filter: { class: rail, brunnel: 'bridge', $zoom: {min: 12, max: 16} }
+            draw:
+                lines:
+                    color: global.rail
+                    order: 100
+                    width: [
+                        [12, 0.5px],
+                        [15, 1px],
+                        [16, 1.5px]
+                    ]
+                    cap: butt
+                    join: round
+
+        rail_dash:
+            filter: { class: rail, $zoom: {min: 16} }
+            draw:
+                rail:
+                    color: global.rail
+                    order: 100
+                    width: [
+                        [16, 1.5px],
+                        [17, 2px],
+                        [18, 3px]
+                    ]
+                lines:
+                    color: global.rail
+                    order: 10
+                    width: [
+                        [16, 2.2px],
+                        [17, 2.7px],
+                        [18, 4px]
+                    ]
+        rail_dash_bridge:
+            filter: { class: rail, brunnel: 'bridge', $zoom: {min: 16} }
+            draw:
+                rail:
+                    color: global.rail
+                    order: 100
+                    width: [
+                        [16, 1.5px],
+                        [17, 2px],
+                        [18, 3px]
+                    ]
+                lines:
+                    color: global.rail
+                    order: 18
+                    width: [
+                        [16, 2.2px],
+                        [17, 2.7px],
+                        [18, 4px]
+                    ]
+        tunnel:
+            filter: {brunnel: 'tunnel' }
+            draw:
+                lines:
+                    order: 10
+                    color: global.tunnel
+
+    transportation_name:
+        data: { source: carto }
+        primary:
+            filter:
+                any:
+                    - {class: 'motorway', $zoom: {min: 13}}
+                    - {class: 'trunk', $zoom: {min: 13}}
+                    - {class: 'primary', $zoom: {min: 14}}
+            draw:
+                text:
+                    repeat_distance: 200px
+                    font:
+                        family: Montserrat Regular
+                        text_source: name
+                        size: [[13, 9px], [14, 10px], [15, 11px], [16, 12px], [17, 13px]]
+                        fill: global.road_text_med
+                        stroke: { color: global.primary_halo, width: 0.75px }
+        secondary:
+            filter:
+                any:
+                    - {class: 'secondary', $zoom: {min: 14}}
+            draw:
+                text:
+                    repeat_distance: 200px
+                    font:
+                        family: Montserrat Regular
+                        text_source: name
+                        size: [[14, 8px], [15, 11px], [16, 12px]]
+                        fill: global.road_text_med
+                        stroke: { color: global.minor_halo, width: 0.75px }
+        tertiary:
+            filter:
+                any:
+                    - {class: 'tertiary', $zoom: {min: 15}}
+            draw:
+                text:
+                    repeat_distance: 200px
+                    font:
+                        family: Montserrat Regular
+                        text_source: name
+                        size: [[15, 10px], [16, 11px], [18, 12px]]
+                        fill: global.road_text_light
+                        stroke: { color: global.minor_halo, width: 0.75px }
+        minor:
+            filter:
+                any:
+                    - {class: 'minor', $zoom: {min: 16}}
+            draw:
+                text:
+                    #repeat_distance: 120px
+                    #text_wrap: 120
+                    buffer: 13px
+                    font:
+                        family: Montserrat Regular
+                        text_source: name
+                        size: [[14, 8px], [16, 9px], [17, 10px], [18, 11px]]
+                        fill: global.road_text_light
+                        stroke: { color: global.minor_halo, width: 0.75px }
+
+    building:
+        data: { source: carto , layer: building}
+        filter: {$zoom: {max: 16}}
+        draw:
+            polygons:
+                #style: building-grid
+                order: 10
+                color: global.building
+                #extrude: 20
+
+            lines:
+                #extrude: 5
+                style: lines
+                order: 10
+                color: global.building-shadow
+                width: [[13, 0.2px], [15, 0.5px], [16,0.75px], [18, 1.25px]]
+
+    building-3d:
+        data: { source: carto , layer: building}
+        filter: {$zoom: {min: 16}}
+        draw:
+            polygons:
+                #style: building-grid
+                order: 10
+                color: global.building
+                #extrude: 1
+                #extrude: function() { return feature.render_height;}
+                extrude: function() { return [feature.render_min_height, feature.render_height];}
+    place-continent:
+        data: { source: carto,  layer: place}
+        filter: {class: continent, $zoom: {min: 1, max: 3}}
+        draw:
+            text-blend-order:
+                move_into_tile: false
+                #priority: 1
+                text_source: name_en
+                collide: false
+                buffer: 1px
+                text_wrap: 10
+                font:
+                    size: [[1, 10px], [2, 14px]]
+                    fill: global.continent_text
+                    family: Montserrat Regular
+                    transform: uppercase
+                    stroke: { color: global.continent_halo, width: 1px }
+    place-country-r1-r2:
+        data: { source: carto,  layer: place}
+        filter: {class: country, $zoom: {min: 3, max: 7}, rank: {max: 3} }
+        draw:
+            text:
+                move_into_tile: false
+                #collide: false
+                priority: 1
+                text_source: name_en
+                buffer: 1px
+                text_wrap: 13
+                font:
+                    size: [[3, 11px], [4, 12px], [5, 13px], [6, 15px]]
+                    fill: [
+                        [3, global.country_text_dark],
+                        [5, global.country_text_med],
+                        [6, global.country_text_light]
+                    ]
+                    family: Montserrat Regular
+                    transform: uppercase
+                    stroke: { color: global.country_halo, width: 1px }
+    place-country-r3-r6:
+        data: { source: carto,  layer: place}
+        filter: {class: country, $zoom: {min: 4, max: 11}, rank: {min: 3, max: 6} }
+        draw:
+            text-blend-order:
+                move_into_tile: false
+                #collide: false
+                priority: 2
+                text_source: name_en
+                buffer: 1px
+                text_wrap: 13
+                font:
+                    size: [[4, 10px], [5, 11px], [6, 12px], [7, 13px], [8, 14px]]
+                    fill: [
+                        [3, global.country_text_dark],
+                        [5, global.country_text_med],
+                        [6, global.country_text_light]
+                    ]
+                    family: Montserrat Regular
+                    transform: uppercase
+                    stroke: { color: global.country_halo, width: 1px }
+    place-state:
+        data: { source: carto,  layer: place}
+        filter: {class: state, $zoom: {min: 6, max: 10}, rank: {max: 4} }
+        draw:
+            text-blend-order:
+                move_into_tile: false
+                collide: false
+                #priority: 1
+                text_source: name_en
+                buffer: 1px
+                text_wrap: 13
+                font:
+                    size: [[6, 12px], [7, 13px]]
+                    fill: [
+                        [6, global.state_text],
+                        [8, global.state_text_light]
+                    ]
+                    family: Montserrat Regular
+                    transform: uppercase
+                    stroke: { color: global.state_halo, width: 1px }
+    place-city-dot-r2:
+        data: { source: carto,  layer: place}
+        filter: {class: city, $zoom: {min: 4, max: 7}, rank: {max: 2} }
+        draw:
+            text-blend-order:
+                move_into_tile: false
+                collide: false
+                priority: 10
+                text_source: name_en
+                buffer: 1px
+                text_wrap: 13
+                font:
+                    size: [[4, 12px], [7, 13px]]
+                    fill: global.place_text
+                    family: Montserrat Regular
+                    transform: uppercase
+                    stroke: { color: global.place_halo, width: 1px }
+    place-city-dot-r4:
+        data: { source: carto,  layer: place}
+        filter: {class: city, $zoom: {min: 5, max: 7}, rank: {min: 2, max: 4} }
+        draw:
+            text-blend-order:
+                move_into_tile: false
+                priority: 11
+                #collide: false
+                text_source: name_en
+                buffer: 1px
+                text_wrap: 13
+                font:
+                    size: 12px
+                    fill: global.place_text
+                    family: Montserrat Regular
+                    #transform: uppercase
+                    stroke: { color: global.place_halo, width: 1px }
+    place-city-dot-z7:
+        data: { source: carto,  layer: place}
+        filter: {class: [city,town], $zoom: {min: 7, max: 8}}
+        draw:
+            text-blend-order:
+                move_into_tile: false
+                priority: 12
+                text_source: name_en
+                buffer: 1px
+                text_wrap: 13
+                font:
+                    size: 12px
+                    fill: global.place_text
+                    family: Montserrat Regular
+                    #transform: uppercase
+                    stroke: { color: global.place_halo, width: 1px }
+    place-city-r5:
+        data: { source: carto,  layer: place}
+        filter: {class: city, $zoom: {min: 8, max: 14}, rank: {max: 6}}
+        draw:
+            text-blend-order:
+                move_into_tile: false
+                priority: 13
+                collide: false
+                text_source: name_en
+                buffer: 1px
+                text_wrap: 13
+                font:
+                    size: [
+                        [8, 11px],
+                        [9, 13px],
+                        [10, 14px],
+                        [11, 16px],
+                        [12, 17px],
+                        [13, 20px]
+                    ]
+                    fill: global.place_text
+                    family: Montserrat Regular
+                    transform: uppercase
+                    stroke: { color: global.place_halo, width: 1px }
+    place-city-r6:
+        data: { source: carto,  layer: place}
+        filter: {class: city, $zoom: {min: 8, max: 15}, rank: {min: 6}}
+        draw:
+            text-blend-order:
+                move_into_tile: false
+                priority: 14
+                #collide: false
+                text_source: name_en
+                buffer: 1px
+                text_wrap: 13
+                font:
+                    size: [[8, 12px], [9, 13px], [10, 14px], [13, 17px], [14, 20px]]
+                    fill: global.place_text
+                    family: Montserrat Regular
+                    #transform: uppercase
+                    stroke: { color: global.place_halo, width: 1px }
+    place-town-r12:
+        data: { source: carto,  layer: place}
+        filter: {class: town, $zoom: {min: 8, max: 15}, rank: {max: 12}}
+        draw:
+            text:
+                move_into_tile: false
+                priority: 20
+                order: 20
+                text_source: name_en
+                #collide: false
+                buffer: 1px
+                text_wrap: 13
+                font:
+                    size: [[8, 10px], [9, 10px], [10, 11px], [13, 14px], [14, 15px]]
+                    fill: global.place_text
+                    family: Montserrat Regular
+                    #transform: uppercase
+                    stroke: { color: global.place_halo, width: 1px }
+
+    place-town-r13:
+        data: { source: carto,  layer: place}
+        filter: {class: town, $zoom: {min: 9, max: 15}, rank: {min: 13, max: 16}}
+        draw:
+            text:
+                move_into_tile: false
+                priority: 21
+                buffer: 1px
+                text_source: name_en
+                #collide: false
+                text_wrap: 13
+                font:
+                    size: [[8, 10px], [9, 10px], [10, 11px], [13, 14px], [14, 15px]]
+                    fill: global.place_text
+                    family: Montserrat Regular
+                    #transform: uppercase
+                    stroke: { color: global.place_halo, width: 1px }
+    place-village:
+        data: { source: carto,  layer: place}
+        filter: {class: village, $zoom: {min: 10, max: 17}}
+        draw:
+            text:
+                move_into_tile: false
+                priority: 30
+                text_source: name_en
+
+                #collide: false
+                buffer: 1px
+                text_wrap: 15
+                font:
+                    size: [
+                        [12, 10px],
+                        [13, 11px],
+                        [14, 13px],
+                        [15, 14px],
+                        [16, 16px]
+                    ]
+                    fill: global.place_text
+                    family: Montserrat Regular
+                    #transform: uppercase
+                    stroke: { color: global.place_halo, width: 1px }
+    place-suburbs:
+        data: { source: carto,  layer: place}
+        filter: {class: suburb, rank: {min: 11}, $zoom: {min: 12, max: 14}}
+        draw:
+            text-blend-order:
+                move_into_tile: false
+                priority: 31
+                text_source: name_en
+                #collide: false
+                buffer: 1px
+                text_wrap: 12
+                font:
+                    size: [[12, 9px], [13, 10px], [14, 11px], [15, 12px], [16, 13px]]
+                    fill: global.place_text
+                    family: Montserrat Regular
+                    transform: uppercase
+                    stroke: { color: global.place_halo, width: 1px }
+    place-suburbs-high:
+        data: { source: carto,  layer: place}
+        filter: {class: suburb, $zoom: {min: 14, max: 17}}
+        draw:
+            text-blend-order:
+                move_into_tile: false
+                priority: 32
+                text_source: name_en
+                collide: false
+                buffer: 1px
+                text_wrap: 12
+                font:
+                    size: [[12, 9px], [13, 10px], [14, 11px], [15, 12px], [16, 13px]]
+                    fill: global.place_text
+                    family: Montserrat Regular
+                    transform: uppercase
+                    stroke: { color: global.place_halo, width: 1px }
+    place-hamlet:
+        data: { source: carto,  layer: place}
+        filter: {class: hamlet, rank: {min: 11}, $zoom: {min: 13, max: 15}}
+        draw:
+            text-blend-order:
+                move_into_tile: false
+                priority: 33
+                text_source: name_en
+                buffer: 1px
+                #text_wrap: 12
+                font:
+                    size: [[13, 9px], [14, 10px], [15, 11px], [16, 13px], [17, 14px]]
+                    fill: global.place_text
+                    family: Montserrat Regular
+                    #transform: uppercase
+                    stroke: { color: global.place_halo, width: 1px }
+    place-hamlet-high:
+        data: { source: carto,  layer: place}
+        filter: {class: hamlet, $zoom: {min: 15, max: 17}}
+        draw:
+            text-blend-order:
+                move_into_tile: false
+                priority: 33
+                text_source: name_en
+                buffer: 1px
+                #text_wrap: 12
+                font:
+                    size: [[13, 9px], [14, 10px], [15, 11px], [16, 13px], [17, 14px]]
+                    fill: global.place_text
+                    family: Montserrat Regular
+                    transform: uppercase
+                    stroke: { color: global.place_halo, width: 1px }
+    housenumber:
+        data: { source: carto,  layer: housenumber}
+        filter: {$zoom: {min: 17}}
+        draw:
+            text-blend-order:
+                move_into_tile: false
+                #order: 1
+                #priority: 4
+                text_source: housenumber
+                buffer: 2px
+                #text_wrap: 12
+                font:
+                    size: [[17, 9px], [18, 11px]]
+                    fill: global.housenumber
+                    family: Montserrat Regular
+                    #transform: uppercase
+                    stroke: { color: global.housenumber_halo, width: 0.75px }
+    poi-z15:
+        data: { source: carto,  layer: poi}
+        filter: {class: [park, cemetery, stadium, attraction], rank: {max: 2}, $zoom: {min: 15}}
+        draw:
+            text-blend-order:
+                move_into_tile: false
+                #collide: false
+                #order: 100
+                #priority: 4
+                text_source: name
+                buffer: 2px
+                #text_wrap: 12
+                font:
+                    size: [[15, 8px], [16, 9px], [17, 9px], [18, 10px]]
+                    fill: global.poi_light
+                    family: Montserrat Regular
+                    transform: uppercase
+                    stroke: { color: global.poi_halo, width: 0.75px }
+    poi-z16:
+        data: { source: carto,  layer: poi}
+        filter: {class: [park, cemetery, stadium, attraction], rank: {min: 2, max: 4}, $zoom: {min: 16}}
+        draw:
+            text-blend-order:
+                move_into_tile: false
+                #collide: false
+                #order: 100
+                #priority: 4
+                text_source: name
+                buffer: 2px
+                #text_wrap: 12
+                font:
+                    size: [[15, 8px], [16, 9px], [17, 9px], [18, 10px]]
+                    fill: global.poi_light
+                    family: Montserrat Regular
+                    transform: uppercase
+                    stroke: { color: global.poi_halo, width: 0.75px }

@@ -1,0 +1,44 @@
+_prefs: 
+  mapid: ''
+  saveCenter: true
+_properties: {}
+attribution: ''
+bounds: 
+  - -180
+  - -85.0511
+  - 180
+  - 85.0511
+center: 
+  - 8.1738
+  - 48.9514
+  - 5
+description: ''
+format: "png8:m=h"
+interactivity_layer: ''
+layers: 
+  - landcover
+  - landuse
+  - park
+  - boundary
+  - water
+  - waterway
+  - aeroway
+  - building
+  - transportation
+  - place
+  - poi
+  - transportation_name
+  - water_name
+  - housenumber
+maxzoom: 18
+minzoom: 0
+name: Voyager labels under
+source: "http://tiles.basemaps.cartocdn.com/vector/carto.streets/v1/tiles.json"
+styles: 
+  - style.mss
+  - admin.mss
+  - hydro.mss
+  - landuse.mss
+  - roads.mss
+  - labels.mss
+template: ''

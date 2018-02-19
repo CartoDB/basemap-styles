@@ -1,0 +1,44 @@
+_prefs: 
+  mapid: ''
+  saveCenter: true
+_properties: {}
+attribution: ''
+bounds: 
+  - -180
+  - -85.0511
+  - 180
+  - 85.0511
+center: 
+  - -122.4703
+  - 37.8011
+  - 15
+description: ''
+format: "png8:m=h"
+interactivity_layer: ''
+layers: 
+  - landcover
+  - landuse
+  - park
+  - boundary
+  - water
+  - waterway
+  - aeroway
+  - building
+  - transportation
+  - place
+  - poi
+  - water_name
+  - transportation_name
+  - housenumber
+maxzoom: 18
+minzoom: 0
+name: Positron All
+source: "http://fast.nutiteq.com/v3.json"
+styles: 
+  - style.mss
+  - admin.mss
+  - hydro.mss
+  - landuse.mss
+  - roads.mss
+  - labels.mss
+template: ''
