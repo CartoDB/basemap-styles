@@ -48,9 +48,9 @@ credit also "CARTO" with a link to https://carto.com/.
 
 For a browsable electronic map based on OpenMapTiles schema, OpenStreetMap data and CARTO styles, the credits should appear in the corner of the map. For example:
 
+[© CARTO](https://carto.com)
 [© OpenMapTiles](http://openmaptiles.org/)
 [© OpenStreetMap contributors](http://www.openstreetmap.org/copyright)
-[© CARTO](https://carto.com)
 
 For printed and static maps a similar attribution should be made in a textual
 description near the image, in the same fashion as if you cite a photograph.
