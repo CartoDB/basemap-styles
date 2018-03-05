@@ -1,1 +1,133 @@
-here will be the previewer
+
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+  
+  <title>Style Comparison</title>
+  
+  <link rel="stylesheet" href="ol.css">
+  <link rel="stylesheet" href="main.css">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.4.3/proj4.js"></script>
+
+</head>
+<body>
+
+    <div class="header_container">
+      <div class="header">CARTO STYLE COMPARISON</div>
+      <div class="top_label zoom_label"></div>
+      <div class="top_label center_label"></div>
+    </div>
+    
+    <div class="map_container">
+      <div class="map" id="map1"></div>  
+        
+      <div class="dropdown_container dropdown_container_1">
+        <input class="url_field" tabindex="-1" type="" name="" value="">
+        <div class="dropdown_text_overlay"></div>
+        <div class="dropdown_text_container">
+        	<div class="dropdown_text"></div>
+        </div>
+
+        <div class="dropdown_image dropdown_triangle"></div>
+        <div class="dropdown_image cancel_url_field_button"></div>
+      </div>
+      
+
+      <div class="rendering_engine_container">
+        <div class="rendering_engine rendering_engine_choice rendering_engine_ol rendering_engine_active">OPENLAYERS</div>
+        <div class="rendering_engine rendering_engine_choice rendering_engine_gl">MAPBOX-GL</div>
+        <div class="rendering_engine rendering_engine_choice rendering_engine_leaflet">LEAFLET</div>
+      </div>
+    </div>
+    
+    <div class="map_container">
+      <div class="map" id="map2"></div>
+      
+      <div class="dropdown_container dropdown_container_2">
+        <input class="url_field" tabindex="-1" type="" name="" value="">
+        <div class="dropdown_text_overlay"></div>
+        <div class="dropdown_text_container">
+        	<div class="dropdown_text"></div>
+        </div>
+
+        <div class="dropdown_image dropdown_triangle"></div>
+        <div class="dropdown_image cancel_url_field_button"></div>
+      </div>
+
+      <div class="rendering_engine_container">
+        <div class="rendering_engine rendering_engine_choice rendering_engine_ol rendering_engine_active">OPENLAYERS</div>
+        <div class="rendering_engine rendering_engine_choice rendering_engine_gl">MAPBOX-GL</div>
+        <div class="rendering_engine rendering_engine_choice rendering_engine_leaflet">LEAFLET</div>
+      </div>
+    </div>
+    
+    <div class="map_container">
+      <div class="map" id="map3"></div>
+      
+      <div class="dropdown_container dropdown_container_3">
+        <input class="url_field" tabindex="-1" type="" name="" value="">
+        <div class="dropdown_text_overlay"></div>
+        <div class="dropdown_text_container">
+        	<div class="dropdown_text"></div>
+        </div>
+
+        <div class="dropdown_image dropdown_triangle"></div>
+        <div class="dropdown_image cancel_url_field_button"></div>
+      </div>
+    
+      <div class="rendering_engine_container">
+        <div class="rendering_engine rendering_engine_choice rendering_engine_ol rendering_engine_active">OPENLAYERS</div>
+        <div class="rendering_engine rendering_engine_choice rendering_engine_gl">MAPBOX-GL</div>
+        <div class="rendering_engine rendering_engine_choice rendering_engine_leaflet">LEAFLET</div>
+      </div>
+    </div>
+
+    <div class="map_container">
+      <div class="map" id="map4"></div>
+
+      <div class="dropdown_container dropdown_container_4">
+        <input class="url_field" tabindex="-1" type="" name="" value="">
+        <div class="dropdown_text_overlay"></div>
+        <div class="dropdown_text_container">
+        	<div class="dropdown_text"></div>
+        </div>
+
+        <div class="dropdown_image dropdown_triangle"></div>
+        <div class="dropdown_image cancel_url_field_button"></div>
+      </div>
+      
+
+      <div class="rendering_engine_container">
+        <div class="rendering_engine rendering_engine_choice rendering_engine_ol rendering_engine_active">OPENLAYERS</div>
+        <div class="rendering_engine rendering_engine_choice rendering_engine_gl">MAPBOX-GL</div>
+        <div class="rendering_engine rendering_engine_choice rendering_engine_leaflet">LEAFLET</div>
+      </div>
+    </div>
+
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Promise"></script>
+    
+    <script src="ol.js"></script>
+    <script src="olms.js"></script>
+
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.29.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.29.0/mapbox-gl.css' rel='stylesheet' />
+    
+    <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
+
+    <script src="main.js"></script>
+
+</body>
+
+
+
+
+
+
+

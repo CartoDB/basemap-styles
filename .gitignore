@@ -1,0 +1,59 @@
+
+# OSX
+
+.DS_Store
+
+# Xcode
+
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+profile
+*.moved-aside
+DerivedData
+.idea/
+
+# Pods - for those of you who use CocoaPods
+Pods
+
+# Framework
+
+CartoMobileSDK.Framework
+
+# C#
+
+bin/
+obj/
+packages/
+*.userprefs
+
+.DS_Store
+
+# project-specific
+fon-poland.geojson
+fon.mbtiles
+
+# project-specific: data.collection bundled s3 tokens
+s3_tokens.txt
+tallinn_toompea_myyrita_v3.nmldb
+boston_tomtom_lod4.nmldb
+london_blom.nmldb
+chicago_tomtom_lod4_wp8.nmldb
+barca_3dwh_noheight3_suur.nmldb
+seattle_tomtom_lod4.nmldb
+boston_tomtom_lod4.nmldb
+
+
+
+
+
+
