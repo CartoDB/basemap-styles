@@ -91,7 +91,7 @@
     "name": "MB Streets Style as vector (Retina)"
   },
   {
-    "url": "https://1.base.maps.api.here.com/maptile/2.1/maptile/newest/satellite.day/{z}/{x}/{y}/512/png8?lg=eng&token=A7tBPacePg9Mj_zghvKt9Q&app_id=KuYppsdXZznpffJsKT24",
+    "url": "https://1.aerial.maps.api.here.com/maptile/2.1/maptile/newest/satellite.day/{z}/{x}/{y}/256/jpg?lg=eng&token=A7tBPacePg9Mj_zghvKt9Q&app_id=KuYppsdXZznpffJsKT24",
     "service type": "external",
     "renderer": "leaflet",
     "style": "HERE satellite",
