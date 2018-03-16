@@ -223,8 +223,10 @@ function initializeMap(id, style) {
         
         var map = olms.apply(mapDivId, url);
     } else if (engine.hasClass(RENDERING_ENGINE_GL)) {
-        
+        mapboxgl.accessToken = 'pk.eyJ1IjoiY2FydG8tYml6LW9wcyIsImEiOiJjamNjbGk5cW0xN2J2MndwNWdrcWdvZXA0In0.v-cmdvJ7OADDPTi2nrSkKg';
         var map = new mapboxgl.Map({ container: mapDivId, style: url });
+     
+     
     } else if (engine.hasClass(RENDERING_ENGINE_TANGRAM)) {
         
         var map = L.map(mapDivId);

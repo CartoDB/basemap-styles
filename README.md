@@ -1,5 +1,5 @@
 # CARTO basemap styles
-CARTO Basemap styles for web and mobile
+CARTO Basemap styles for web and mobile, raster and vector. Preview and compare with different viewers [here](https://cartodb.github.io/basemap-styles). 
 
 This repository has working copies of basemap cartographic styles for different targets
 
