@@ -70,7 +70,7 @@
     "name": "Dark Matter raster (Retina)"
   },
   {
-    "url": "https://api.mapbox.com/v4/mapbox.satellite/{z}/{x}/{y.jpg70?access_token=pk.eyJ1IjoiY2FydG8tYml6LW9wcyIsImEiOiJjamNjbGk5cW0xN2J2MndwNWdrcWdvZXA0In0.v-cmdvJ7OADDPTi2nrSkKg",
+    "url": "https://api.mapbox.com/v4/mapbox.satellite/{z}/{x}/{y}.jpg70?access_token=pk.eyJ1IjoiY2FydG8tYml6LW9wcyIsImEiOiJjamNjbGk5cW0xN2J2MndwNWdrcWdvZXA0In0.v-cmdvJ7OADDPTi2nrSkKg",
     "service type": "external",
     "renderer": "leaflet",
     "style": "Mapbox Satellite",
