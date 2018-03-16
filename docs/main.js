@@ -176,7 +176,7 @@ function findRenderer(container) {
     } else if (renderer.hasClass(RENDERING_ENGINE_TANGRAM)) {
         return RENDERING_ENGINE_TANGRAM
     } else if (renderer.hasClass(RENDERING_ENGINE_LEAFLET)) {
-        return leaflet
+        return RENDERING_ENGINE_LEAFLET
     }
 }
 
