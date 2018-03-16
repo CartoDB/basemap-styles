@@ -176,7 +176,7 @@ function findRenderer(container) {
     } else if (renderer.hasClass(RENDERING_ENGINE_TANGRAM)) {
         return RENDERING_ENGINE_TANGRAM
     } else if (renderer.hasClass(RENDERING_ENGINE_LEAFLET)) {
-        return leaflet
+        return RENDERING_ENGINE_LEAFLET
     }
 }
 
@@ -573,9 +573,7 @@ function onCancelClick(e) {
 
     var index = parseInt(mapId.replace("map", ""))
     var styles = findStylesFromRenderer(getRendererId(engine))
-    console.log(index)
-    console.log(styles)
-
+    
     var map = initializeMap(index, styles[0])
     maps[index - 1] = map
 
@@ -586,11 +584,16 @@ function initializeMapFromUrlField(field) {
 
     var url = field.val()
 
-    var id = field.parent().parent().find(".map").attr("id")
+    var mapDiv = field.parent().parent().find(".map")
+    var mapId = mapDiv.attr("id")
+
+    var id = mapDiv.attr("id")
     var index = parseInt(id.replace("map", ""))
 
+    clearMap(mapDiv, mapId)
+
     var map = initializeMap(index, url)
-    
+
     // Replace the map in our existing list
     maps[index - 1] = map
 
