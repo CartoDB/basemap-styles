@@ -4,76 +4,97 @@
     "service type": "public live",
     "renderer": "mapbox-gl",
     "style": "voyager",
-    "name": "Live free Voyager vector on Mapbox-GL"
+    "name": "Voyager Vector on Mapbox-GL"
+  },
+    {
+    "url": "https://tiles.basemaps.cartocdn.com/gl/positron-gl-style/style.json",
+    "service type": "public live",
+    "renderer": "mapbox-gl",
+    "style": "positron",
+    "name": "Positron Vector on Mapbox-GL"
+  },
+    {
+    "url": "https://tiles.basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json",
+    "service type": "public live",
+    "renderer": "mapbox-gl",
+    "style": "dark-matter",
+    "name": "Dark Matter Vector on Mapbox-GL"
   },
   {
     "url": "https://tiles.basemaps.cartocdn.com/gl/voyager-gl-style/style.json",
     "service type": "public live",
     "renderer": "openlayers",
     "style": "voyager",
-    "name": "Live free Voyager vector on OpenLayers"
+    "name": "Voyager vector on OpenLayers"
+  },
+    {
+    "url": "https://tiles.basemaps.cartocdn.com/gl/positron-gl-style/style.json",
+    "service type": "public live",
+    "renderer": "openlayers",
+    "style": "positron",
+    "name": "Positron Vector on OpenLayers"
+  },
+    {
+    "url": "https://tiles.basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json",
+    "service type": "public live",
+    "renderer": "openlayers",
+    "style": "dark-matter",
+    "name": "Dark Matter Vector on OpenLayers"
   },
   {
     "url": "https://tiles.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
     "service type": "public live",
     "renderer": "leaflet",
     "style": "Voyager (all)",
-    "name": "Live free Voyager raster"
+    "name": "Voyager raster"
   },
   {
     "url": "https://tiles.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png",
     "service type": "public live",
     "renderer": "leaflet",
     "style": "Voyager (all)",
-    "name": "Live free Voyager raster (Retina)"
+    "name": "Voyager raster (Retina)"
   },
   {
-    "url": "http://fast-staging.nutiteq.com/staging/voyager-labels-under.tm2/project/{z}/{x}/{y}@2x.png",
-    "service type": "preview",
+    "url": "https://tiles.basemaps.cartocdn.com/light_all/{z}/{x}/{y}@2x.png",
+    "service type": "public live",
     "renderer": "leaflet",
-    "style": "Voyager (labels under)",
-    "name": "Preview Voyager raster (Retina)"
+    "style": "Positron",
+    "name": "Positron raster (Retina)"
   },
   {
-    "url": "http://fast-staging.nutiteq.com/staging/positron.tm2/project/{z}/{x}/{y}@2x.png",
-    "service type": "preview",
+    "url": "https://tiles.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}@2x.png",
+    "service type": "public live",
     "renderer": "leaflet",
-    "style": "Positron (labels under)",
-    "name": "Preview Positron raster (Retina)"
+    "style": "Dark Matter",
+    "name": "Dark Matter raster (Retina)"
   },
   {
-    "url": "http://fast-staging.nutiteq.com/staging/pb-streets.tm2/project/{z}/{x}/{y}@2x.png",
-    "service type": "preview",
-    "renderer": "leaflet",
-    "style": "Pitney Bowes Streets",
-    "name": "Preview PB Streets raster (Retina)"
-  },
-  {
-    "url": "https://api.mapbox.com/styles/v1/jaakl/cj28tpau800022stajb0f0lao/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiamFha2wiLCJhIjoiR3FYNFJrRSJ9.n8PoOPy9tvnULFJ8h67pIA",
+    "url": "https://api.mapbox.com/styles/v1/jaakl/cj28tpau800022stajb0f0lao/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiY2FydG8tYml6LW9wcyIsImEiOiJjamNjbGk5cW0xN2J2MndwNWdrcWdvZXA0In0.v-cmdvJ7OADDPTi2nrSkKg",
     "service type": "external",
     "renderer": "leaflet",
     "style": "Mapbox Outdoors",
     "name": "MB Outdoors Style as raster (Retina)"
   },
   {
-    "url": "https://api.mapbox.com/styles/v1/jaakl/cj28tpau800022stajb0f0lao/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiamFha2wiLCJhIjoiR3FYNFJrRSJ9.n8PoOPy9tvnULFJ8h67pIA",
+    "url": "https://api.mapbox.com/styles/v1/jaakl/cj28tpau800022stajb0f0lao/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiY2FydG8tYml6LW9wcyIsImEiOiJjamNjbGk5cW0xN2J2MndwNWdrcWdvZXA0In0.v-cmdvJ7OADDPTi2nrSkKg",
     "service type": "external",
     "renderer": "leaflet",
     "style": "Mapbox Outdoors",
     "name": "MB Outdoors Style as raster (Retina)"
   },
   {
-    "url": "mapbox://styles/jaakl/cj28tpau800022stajb0f0lao",
+    "url": "mapbox://styles/mapbox/streets-v9",
     "service type": "external",
     "renderer": "mapbox-gl",
-    "style": "Mapbox Outdoors",
-    "name": "MB Outdoors Style as vector (Retina)"
+    "style": "Mapbox Streets",
+    "name": "MB Streets Style as vector (Retina)"
   },
   {
-    "url": "https://1.base.maps.api.here.com/maptile/2.1/maptile/newest/normal.day/{z}/{x}/{y}/512/png8?lg=eng&token=A7tBPacePg9Mj_zghvKt9Q&app_id=KuYppsdXZznpffJsKT24",
+    "url": "https://1.base.maps.api.here.com/maptile/2.1/maptile/newest/satellite.day/{z}/{x}/{y}/512/png8?lg=eng&token=A7tBPacePg9Mj_zghvKt9Q&app_id=KuYppsdXZznpffJsKT24",
     "service type": "external",
     "renderer": "leaflet",
-    "style": "HERE normal.day",
-    "name": "HERE normal.day tiles (Retina)"
+    "style": "HERE satellite",
+    "name": "HERE satellite.day tiles (Retina)"
   }
 ]
