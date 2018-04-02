@@ -39,8 +39,9 @@ Every style has following unique files:
 * folder **cartocss/mobile-sdk-styles**
 * these are taken from "Web Basemaps" .mss files (CartoCSS) and are modified to have vector rendering specifics - e.g. language and 3D display, smooth zoom variables
 * Style modification from web basemap to mobile basemap is manual process
+* You can try our experimental https://github.com/CartoDB/mobile-style-editor app to edit mobile basemap styles with a mobile device: Android tablet or iPad. This gives you direct user experience of your style right on mobile.
 * Every style has mobile-specific .json metafile (e.g. voyager.json). This is SDK-specific format, somewhat similar to project.yml file in MB Studio Classic. Defines also order of layers, and some SDK-specific additional parameters. It has also file sizes and checksums, this is used in online style server to identify style updates.
-* Note that MBStudio generated .xml is **not** used here
+* Note that MBStudio generated .xml is **not** used in mobile
 
 ## 3. Vector styles for web
 ### Mapbox-gl style
@@ -56,4 +57,5 @@ Every style has following unique files:
 ### Tangram styles
 * folder: **/tangram**
 * Can be edited using Tangram Play
+* Use it 'as is', not supported or developed anymore by CARTO
 
