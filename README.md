@@ -58,6 +58,6 @@ Every style has following unique files:
 
 ### Tangram styles
 * folder: **/tangram**
-* Can be edited using Tangram Play
+* Can be edited using [Tangram Play](https://github.com/tangrams/tangram-play)
 * Use it 'as is', not supported or developed anymore by CARTO
 
