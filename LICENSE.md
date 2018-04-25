@@ -37,22 +37,9 @@ To view a copy of the license, visit http://creativecommons.org/licenses/by/4.0/
 
 Attribution for the design defined in this repository needs not to be provided
 on map images, but should be reasonably accessible from maps based on this style
-(for example, in a webpage linked from copyright notice on the map).
+(for example, in a webpage linked from copyright notice on the map or in an about page).
 
-Products or services using maps derived from OpenMapTiles schema need to visibly
-credit "OpenMapTiles.org" or reference "OpenMapTiles" with a link to
-http://openmaptiles.org/.
-
-Services and products using CARTO basemap styles need to visibly
-credit also "CARTO" with a link to https://carto.com/.
-
-For a browsable electronic map based on OpenMapTiles schema, OpenStreetMap data and CARTO styles, the credits should appear in the corner of the map. For example:
-
-[© CARTO](https://carto.com)
-[© OpenMapTiles](http://openmaptiles.org/)
-[© OpenStreetMap contributors](http://www.openstreetmap.org/copyright)
-
-For printed and static maps a similar attribution should be made in a textual
-description near the image, in the same fashion as if you cite a photograph.
-
-Exceptions to the attribution requirement can be in a written form granted by respective copyright holders.
+Take in consideration that when using this design together with the OpenMapTiles schema, 
+you need to comply with the OpenMapTiles license at http://openmaptiles.org/. Similar if
+you are using OpenStreetMap data, you have to make sure to provide proper attribution and
+follow its [copyright]((http://www.openstreetmap.org/copyright).
