@@ -3,12 +3,12 @@
 The script generates Mapbox-GL style JSON files from common 'master style' template, and set of variables, set in 
 separate style-specfic json file.
 
-The template has to be created manually, taking a working style (Voyager) from Maputnik project and replacing 
+The template  has to be created manually, taking a working style (Voyager) from Maputnik project and replacing 
 dynamic values by @var@ placeholders.
 
 The generated result files can then be used in mapbox-gl maps. Usage sample:
 
-python styler.py -t style_tpl.json -v ../dark-matter/dark-matter_vars.json -o ../dark-matter/dark-matter.json
+python styler.py -t style_tpl.json -v dark-matter_vars.json -o dark-matter.json
 
 '''
 
