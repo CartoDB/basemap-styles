@@ -473,7 +473,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "fill-color": "#212121",
+        "fill-color": "#fff000",
         "fill-antialias": true,
         "fill-translate-anchor": "map",
         "fill-opacity": 1
