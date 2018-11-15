@@ -17,7 +17,7 @@ Map {
 @mont_it_md: "Montserrat Medium Italic","DejaVu Sans Bold", "Arial Unicode MS Regular", "Noto Sans Regular","Noto Sans Khmer Regular","Noto Sans Mongolian Regular","HanWangHeiLight Regular","NanumBarunGothic Regular";
 
 //Base Colors
-@landmass_fill:             #fafaf8; //lighten(#e3e3dc, 10%);
+@landmass_fill:             green; //lighten(#e3e3dc, 10%);
 @landmass_fill_labels_only: transparent;
 
 //LABELS//
