@@ -1,30 +1,33 @@
 {
+  "style_name":             "Dark Matter",
+  "style_path":             "dark-matter",
+
   "landmass_fill":          "#0e0e0e",
   "landmass_fill_labels_only": "transparent",
   "dark_text":              "#3a3a3a",
   "med_text":               "#444",
   "light_text":             "#555",
-  
-  "continent_text":         "#555", 
-  "continent_halo":         "#111",   
-  "country_text_dark":      "#555", 
-  "country_text_med":       "#444", 
-  "country_text_light":     "#3a3a3a", 
-  "country_halo":           "#111", 
-  
-  "state_text":             "#444", 
-  "state_text_light":       "#444", 
+
+  "continent_text":         "#555",
+  "continent_halo":         "#111",
+  "country_text_dark":      "#555",
+  "country_text_med":       "#444",
+  "country_text_light":     "#3a3a3a",
+  "country_halo":           "#111",
+
+  "state_text":             "#444",
+  "state_text_light":       "#444",
   "state_halo":             "#111",
-  
+
   "place_text":             "#666",
   "place_halo":             "#222",
   "marine_labels":          "#3c3c3c",
   "marine_labels_halo":     "rgba(0,0,0,0.7)",
-  
+
   "water_label":            "#444",
   "water_halo":             "#181818",
-  
-  "road_text_light":        "#383838", 
+
+  "road_text_light":        "#383838",
   "road_text_med":          "#383838",
   "road_text":              "#383838",
   "motorway_halo":          "#111",
@@ -32,78 +35,78 @@
   "minor_halo":             "#111",
   "tunnel_halo":            "#111",
   "text_transform":         "none",
-  
+
   "poi_light":              "#515151",
   "poi_dark":               "#515151",
   "poi_halo":               "#151515",
-  
+
   "housenumber":            "transparent",
   "housenumber_halo":       "transparent",
-  
-  "admin0_3":               "#222", 
-  "admin0_4":               "#292929", 
-  "admin0_5":               "#292929", 
-  "admin0_6":               "#0e0e0e", 
-  "admin0_7":               "#292929", 
-  
-  "admin1_low":             "#222", 
+
+  "admin0_3":               "#222",
+  "admin0_4":               "#292929",
+  "admin0_5":               "#292929",
+  "admin0_6":               "#0e0e0e",
+  "admin0_7":               "#292929",
+
+  "admin1_low":             "#222",
   "admin1_high":            "#292929",
-  
-  "water":                  "#212121", 
-  "rivers_stroke":          "#151515", 
-  "water_shadow":           "transparent", 
-  "ocean_line":             "transparent", 
-  
+
+  "water":                  "#212121",
+  "rivers_stroke":          "#151515",
+  "water_shadow":           "transparent",
+  "ocean_line":             "transparent",
+
   "urbanareas":             "#000",
-  "urban_fade_1":           "rgba(0, 0, 0, 0.5)", 
+  "urban_fade_1":           "rgba(0, 0, 0, 0.5)",
   "urban_fade_2":           "rgba(0, 0, 0, 0.45)",
-  "urban_fade_3":           "rgba(0, 0, 0, 0.4)", 
+  "urban_fade_3":           "rgba(0, 0, 0, 0.4)",
   "urban_fade_4":           "rgba(0, 0, 0, 0.35)",
   "urban_fade_5":           "rgba(0, 0, 0, 0.3)",
   "urban_fade_6":           "rgba(0, 0, 0, 0.25)",
   "urban_fade_7":           "rgba(0, 0, 0, 0.15)",
-  
+
   "greenareas":             "#0e0e0e",
   "greenarea_fade_1":       "#0e0e0e",
   "greenarea_fade_2":       "#0e0e0e",
   "greenarea_fade_3":       "#0e0e0e",
   "greenarea_fade_4":       "#0e0e0e",
-  
+
   "green_area_highzoom":    "#0e0e0e",
   "pattern_opacity":        "0.05",
-  
+
   "buildings":              "#000",
   "building_shadow":        "transparent",
-  "building_a":             "transparent", 
+  "building_a":             "transparent",
   "building_outline":       "#0e0e0e",
-  
+
   "aeroways":               "#111",
-  
+
   "motorway":               "#0b0b0b",
   "motorway_case":          "#232323",
   "motorway_case_lowzoom":  "#1a1a1a",
-  
+
   "main":                   "#0b0b0b",
-  "main_case_lowzoom":      "#1a1a1a", 
-  "main_case":              "#232323", 
+  "main_case_lowzoom":      "#1a1a1a",
+  "main_case":              "#232323",
   "secondary":              "#0b0b0b",
   "secondary_case_lowzoom": "#1a1a1a",
   "secondary_case":         "#232323",
-  
+
   "street":                 "#0b0b0b",
   "street_lowzoom":         "#161616",
   "minor_case":             "#1c1c1c",
-  
+
   "path":                   "#262626",
   "path_case":              "rgba(70,70,70,0.8)",
   "path_poly":              "#090909",
-  
+
   "tunnel":                 "#161616",
   "tunnel_case":            "#1a1a1a",
-  
+
   "rail":                   "#1a1a1a",
   "rail_dash":              "#111",
-  
+
   "motorway_ramp_lowzoom":  "#1a1a1a",
   "minor_ramp_highzoom":    "#000"
 }
