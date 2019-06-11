@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "name": "voyager",
+  "name": "Dark Matter",
   "metadata": {},
   "sources": {
     "carto": {
@@ -8,7 +8,7 @@
       "url": "https://tiles.basemaps.cartocdn.com/vector/carto.streets/v1/tiles.json{api_key}"
     }
   },
-  "sprite": "https://tiles.basemaps.cartocdn.com/gl/positron-gl-style/sprite",
+  "sprite": "https://tiles.basemaps.cartocdn.com/gl/dark-matter-gl-style/sprite",
   "glyphs": "https://tiles.basemaps.cartocdn.com/fonts/{fontstack}/{range}.pbf",
   "layers": [
     {
