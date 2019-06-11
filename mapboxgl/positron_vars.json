@@ -61,15 +61,15 @@
   "urban_fade_4":           "rgba(237, 237, 237, 0.35)",
   "urban_fade_5":           "rgba(237, 237, 237, 0.3)",
   "urban_fade_6":           "rgba(237, 237, 237, 0.25)",
-  "urban_fade_7":           "rgba(237, 237, 237, 0.15)",
+  "urban_fade_7":           "rgba(237, 237, 237, 0.25)",
   
-  "greenareas":             "#dbe9df",
-  "greenarea_fade_1":       "rgba(197, 225, 178, 0.2)", 
-  "greenarea_fade_2":       "rgba(197, 225, 178, 0.25)",
-  "greenarea_fade_3":       "rgba(197, 225, 178, 0.35)", 
-  "greenarea_fade_4":       "rgba(197, 225, 178, 0.4)",
+  "greenareas":             "rgba(234, 241, 233, 0.5)",
+  "greenarea_fade_1":       "rgba(234, 241, 233, 0.5)", 
+  "greenarea_fade_2":       "rgba(234, 241, 233, 0.5)",
+  "greenarea_fade_3":       "rgba(234, 241, 233, 0.5)", 
+  "greenarea_fade_4":       "rgba(234, 241, 233, 0.5)",
   
-  "green_area_highzoom":    "#ebf3ed",
+  "green_area_highzoom":    "rgba(234, 241, 233, 0.5)",
   "pattern_opacity":        "0",
   
   "buildings":              "#ededed",
