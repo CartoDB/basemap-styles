@@ -1206,9 +1206,9 @@ layers:
             draw:
                 text:
                     repeat_distance: 200px
+                    text_source: name
                     font:
                         family: Montserrat Regular
-                        text_source: name
                         size: [[13, 9px], [14, 10px], [15, 11px], [16, 12px], [17, 13px]]
                         fill: global.road_text_med
                         stroke: { color: global.primary_halo, width: 0.75px }
@@ -1219,9 +1219,9 @@ layers:
             draw:
                 text:
                     repeat_distance: 200px
+                    text_source: name
                     font:
                         family: Montserrat Regular
-                        text_source: name
                         size: [[14, 8px], [15, 11px], [16, 12px]]
                         fill: global.road_text_med
                         stroke: { color: global.minor_halo, width: 0.75px }
@@ -1232,9 +1232,9 @@ layers:
             draw:
                 text:
                     repeat_distance: 200px
+                    text_source: name
                     font:
                         family: Montserrat Regular
-                        text_source: name
                         size: [[15, 10px], [16, 11px], [18, 12px]]
                         fill: global.road_text_light
                         stroke: { color: global.minor_halo, width: 0.75px }
@@ -1247,9 +1247,9 @@ layers:
                     #repeat_distance: 120px
                     #text_wrap: 120
                     buffer: 13px
+                    text_source: name
                     font:
                         family: Montserrat Regular
-                        text_source: name
                         size: [[14, 8px], [16, 9px], [17, 10px], [18, 11px]]
                         fill: global.road_text_light
                         stroke: { color: global.minor_halo, width: 0.75px }
