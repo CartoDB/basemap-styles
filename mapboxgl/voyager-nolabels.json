@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "name": "Positron",
+  "name": "Voyager without labels",
   "metadata": {},
   "sources": {
     "carto": {
@@ -8,7 +8,7 @@
       "url": "https://tiles.basemaps.cartocdn.com/vector/carto.streets/v1/tiles.json{api_key}"
     }
   },
-  "sprite": "https://tiles.basemaps.cartocdn.com/gl/positron-gl-style/sprite",
+  "sprite": "https://tiles.basemaps.cartocdn.com/gl/voyager-gl-style/sprite",
   "glyphs": "https://tiles.basemaps.cartocdn.com/fonts/{fontstack}/{range}.pbf",
   "layers": [
     {
@@ -18,7 +18,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "background-color": "#fafaf8",
+        "background-color": "#fbf8f3",
         "background-opacity": 1
       }
     },
@@ -50,23 +50,23 @@
           "stops": [
             [
               8,
-              "rgba(234, 241, 233, 0.5)"
+              "rgba(197, 225, 178, 0.2)"
             ],
             [
               9,
-              "rgba(234, 241, 233, 0.5)"
+              "rgba(197, 225, 178, 0.25)"
             ],
             [
               11,
-              "rgba(234, 241, 233, 0.5)"
+              "rgba(197, 225, 178, 0.35)"
             ],
             [
               13,
-              "rgba(234, 241, 233, 0.5)"
+              "rgba(197, 225, 178, 0.4)"
             ],
             [
               15,
-              "rgba(234, 241, 233, 0.5)"
+              "#e0ecd3"
             ]
           ]
         },
@@ -95,23 +95,23 @@
           "stops": [
             [
               8,
-              "rgba(234, 241, 233, 0.5)"
+              "rgba(197, 225, 178, 0.2)"
             ],
             [
               9,
-              "rgba(234, 241, 233, 0.5)"
+              "rgba(197, 225, 178, 0.25)"
             ],
             [
               11,
-              "rgba(234, 241, 233, 0.5)"
+              "rgba(197, 225, 178, 0.35)"
             ],
             [
               13,
-              "rgba(234, 241, 233, 0.5)"
+              "rgba(197, 225, 178, 0.4)"
             ],
             [
               15,
-              "rgba(234, 241, 233, 0.5)"
+              "#e0ecd3"
             ]
           ]
         },
@@ -141,23 +141,23 @@
           "stops": [
             [
               8,
-              "rgba(234, 241, 233, 0.5)"
+              "rgba(197, 225, 178, 0.2)"
             ],
             [
               9,
-              "rgba(234, 241, 233, 0.5)"
+              "rgba(197, 225, 178, 0.25)"
             ],
             [
               11,
-              "rgba(234, 241, 233, 0.5)"
+              "rgba(197, 225, 178, 0.35)"
             ],
             [
               13,
-              "rgba(234, 241, 233, 0.5)"
+              "rgba(197, 225, 178, 0.4)"
             ],
             [
               15,
-              "rgba(234, 241, 233, 0.5)"
+              "#e0ecd3"
             ]
           ]
         },
@@ -195,31 +195,31 @@
           "stops": [
             [
               5,
-              "rgba(237, 237, 237, 0.5)"
+              "rgba(243, 234, 220, 0.5)"
             ],
             [
               8,
-              "rgba(237, 237, 237, 0.45)"
+              "rgba(243, 234, 220, 0.45)"
             ],
             [
               9,
-              "rgba(237, 237, 237, 0.4)"
+              "rgba(243, 234, 220, 0.4)"
             ],
             [
               11,
-              "rgba(237, 237, 237, 0.35)"
+              "rgba(243, 234, 220, 0.35)"
             ],
             [
               13,
-              "rgba(237, 237, 237, 0.3)"
+              "rgba(243, 234, 220, 0.3)"
             ],
             [
               15,
-              "rgba(237, 237, 237, 0.25)"
+              "rgba(243, 234, 220, 0.25)"
             ],
             [
               16,
-              "rgba(237, 237, 237, 0.25)"
+              "rgba(243, 234, 220, 0.15)"
             ]
           ]
         },
@@ -260,23 +260,23 @@
           "stops": [
             [
               8,
-              "rgba(234, 241, 233, 0.5)"
+              "rgba(197, 225, 178, 0.2)"
             ],
             [
               9,
-              "rgba(234, 241, 233, 0.5)"
+              "rgba(197, 225, 178, 0.25)"
             ],
             [
               11,
-              "rgba(234, 241, 233, 0.5)"
+              "rgba(197, 225, 178, 0.35)"
             ],
             [
               13,
-              "rgba(234, 241, 233, 0.5)"
+              "rgba(197, 225, 178, 0.4)"
             ],
             [
               15,
-              "rgba(234, 241, 233, 0.5)"
+              "#e0ecd3"
             ]
           ]
         }
@@ -288,7 +288,7 @@
       "source": "carto",
       "source-layer": "waterway",
       "paint": {
-        "line-color": "#d1dbdf",
+        "line-color": "#cce7ea",
         "line-width": {
           "stops": [
             [
@@ -336,11 +336,11 @@
           "stops": [
             [
               4,
-              "#ead5d7"
+              "#d4d5d6"
             ],
             [
               5,
-              "#ead5d7"
+              "#d4d5d6"
             ],
             [
               6,
@@ -403,11 +403,11 @@
           "stops": [
             [
               4,
-              "#ead5d7"
+              "#d4d5d6"
             ],
             [
               5,
-              "#ead5d7"
+              "#d4d5d6"
             ],
             [
               6,
@@ -473,7 +473,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "fill-color": "#d4dadc",
+        "fill-color": "#b0d0d6",
         "fill-antialias": true,
         "fill-translate-anchor": "map",
         "fill-opacity": 1
@@ -497,7 +497,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "fill-color": "transparent",
+        "fill-color": "rgba(203, 225, 228, 1)",
         "fill-antialias": true,
         "fill-translate-anchor": "map",
         "fill-opacity": 1,
@@ -664,7 +664,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#ddd"
+        "line-color": "#e6dfcb"
       }
     },
     {
@@ -725,7 +725,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#ddd"
+        "line-color": "#e6dfcb"
       }
     },
     {
@@ -791,7 +791,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#ddd"
+        "line-color": "#e6dfcb"
       }
     },
     {
@@ -880,7 +880,7 @@
             ]
           ]
         },
-        "line-color": "#ddd"
+        "line-color": "#e6dfcb"
       }
     },
     {
@@ -970,7 +970,7 @@
             ]
           ]
         },
-        "line-color": "#ddd"
+        "line-color": "#fbdb98"
       }
     },
     {
@@ -1063,7 +1063,7 @@
             ]
           ]
         },
-        "line-color": "#ddd"
+        "line-color": "#fbdb98"
       }
     },
     {
@@ -1108,7 +1108,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#d5d5d5",
+        "line-color": "#d7d7d7",
         "line-dasharray": {
           "stops": [
             [
@@ -1175,7 +1175,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#eee"
+        "line-color": "#f0eee7"
       }
     },
     {
@@ -1286,7 +1286,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#eee"
+        "line-color": "#f0eee7"
       }
     },
     {
@@ -1352,7 +1352,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#eee"
+        "line-color": "#f0eee7"
       }
     },
     {
@@ -1419,7 +1419,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#eee"
+        "line-color": "#f0eee7"
       }
     },
     {
@@ -1489,7 +1489,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#eee"
+        "line-color": "#f0eee7"
       }
     },
     {
@@ -1653,7 +1653,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#ddd"
+        "line-color": "#fdebce"
       }
     },
     {
@@ -1718,15 +1718,15 @@
           "stops": [
             [
               13,
-              "#e6e6e6"
+              "#ffffff"
             ],
             [
               15.7,
-              "#e6e6e6"
+              "#ffffff"
             ],
             [
               16,
-              "#ddd"
+              "#fdebce"
             ]
           ]
         }
@@ -1797,7 +1797,7 @@
             ]
           ]
         },
-        "line-color": "#ddd"
+        "line-color": "#ffeabb"
       }
     },
     {
@@ -1858,11 +1858,11 @@
           "stops": [
             [
               12,
-              "#e6e6e6"
+              "#fbdb98"
             ],
             [
               14,
-              "#ddd"
+              "#fbdb98"
             ]
           ]
         }
@@ -1926,11 +1926,11 @@
           "stops": [
             [
               12,
-              "#e6e6e6"
+              "#fbdb98"
             ],
             [
               14,
-              "#ddd"
+              "#fbdb98"
             ]
           ]
         }
@@ -2002,15 +2002,15 @@
           "stops": [
             [
               11,
-              "#e6e6e6"
+              "#fffef9"
             ],
             [
               12.99,
-              "#e6e6e6"
+              "#fffef9"
             ],
             [
               13,
-              "#ddd"
+              "#ffedc0"
             ]
           ]
         }
@@ -2105,11 +2105,11 @@
           "stops": [
             [
               7,
-              "#e6e6e6"
+              "#ffe7b7"
             ],
             [
               12,
-              "#ddd"
+              "#ffeabb"
             ]
           ]
         }
@@ -2204,11 +2204,11 @@
           "stops": [
             [
               5,
-              "#e6e6e6"
+              "#ffe7b7"
             ],
             [
               12,
-              "#ddd"
+              "#fbdb98"
             ]
           ]
         }
@@ -2307,11 +2307,11 @@
           "stops": [
             [
               5,
-              "#e6e6e6"
+              "#fbdb98"
             ],
             [
               12,
-              "#ddd"
+              "#fbdb98"
             ]
           ]
         }
@@ -2359,7 +2359,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#d5d5d5",
+        "line-color": "#d7d7d7",
         "line-dasharray": {
           "stops": [
             [
@@ -2425,7 +2425,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#fdfdfd"
+        "line-color": "#ffffff"
       }
     },
     {
@@ -2473,7 +2473,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#fdfdfd"
+        "line-color": "#ffffff"
       }
     },
     {
@@ -2530,7 +2530,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#fff"
+        "line-color": "#fefdd7"
       }
     },
     {
@@ -2587,7 +2587,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#fff"
+        "line-color": "#FFE9A5"
       }
     },
     {
@@ -2644,7 +2644,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#fff"
+        "line-color": "#FFE9A5"
       }
     },
     {
@@ -2705,7 +2705,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#fff"
+        "line-color": "#fefdd7"
       }
     },
     {
@@ -2770,7 +2770,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#fff"
+        "line-color": "#fefdd7"
       }
     },
     {
@@ -2835,7 +2835,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#fff"
+        "line-color": "#FFE9A5"
       }
     },
     {
@@ -2904,7 +2904,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#fff"
+        "line-color": "#FFE9A5"
       }
     },
     {
@@ -3067,7 +3067,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#ddd"
+        "line-color": "#fdebce"
       }
     },
     {
@@ -3133,15 +3133,15 @@
           "stops": [
             [
               13,
-              "#e6e6e6"
+              "#ffffff"
             ],
             [
               15.7,
-              "#e6e6e6"
+              "#ffffff"
             ],
             [
               16,
-              "#ddd"
+              "#fdebce"
             ]
           ]
         }
@@ -3214,15 +3214,15 @@
           "stops": [
             [
               11,
-              "#e6e6e6"
+              "#fffef9"
             ],
             [
               12.99,
-              "#e6e6e6"
+              "#fffef9"
             ],
             [
               13,
-              "#ddd"
+              "#ffedc0"
             ]
           ]
         }
@@ -3318,11 +3318,11 @@
           "stops": [
             [
               8,
-              "#e6e6e6"
+              "#ffe7b7"
             ],
             [
               12,
-              "#ddd"
+              "#ffeabb"
             ]
           ]
         }
@@ -3419,11 +3419,11 @@
           "stops": [
             [
               5,
-              "#e6e6e6"
+              "#fbdb98"
             ],
             [
               12,
-              "#ddd"
+              "#fbdb98"
             ]
           ]
         }
@@ -3523,11 +3523,11 @@
           "stops": [
             [
               5,
-              "#e6e6e6"
+              "#fbdb98"
             ],
             [
               10,
-              "#ddd"
+              "#fbdb98"
             ]
           ]
         }
@@ -3575,7 +3575,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#d5d5d5",
+        "line-color": "#d7d7d7",
         "line-dasharray": {
           "stops": [
             [
@@ -3642,7 +3642,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#fdfdfd"
+        "line-color": "#ffffff"
       }
     },
     {
@@ -3691,7 +3691,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#fdfdfd"
+        "line-color": "#ffffff"
       }
     },
     {
@@ -3753,7 +3753,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#fff"
+        "line-color": "#fefdd7"
       }
     },
     {
@@ -3819,7 +3819,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#fff"
+        "line-color": "#fefdd7"
       }
     },
     {
@@ -3886,7 +3886,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#fff"
+        "line-color": "#FFE9A5"
       }
     },
     {
@@ -3956,7 +3956,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#fff"
+        "line-color": "#FFE9A5"
       }
     },
     {
@@ -3973,11 +3973,11 @@
           "stops": [
             [
               15.5,
-              "#dfdfdf"
+              "#e4dcd0"
             ],
             [
               16,
-              "#dfdfdf"
+              "#e4dcd0"
             ]
           ]
         },
@@ -4012,8 +4012,8 @@
             ]
           ]
         },
-        "fill-outline-color": "#dfdfdf",
-        "fill-color": "#ededed",
+        "fill-outline-color": "#e9d8be",
+        "fill-color": "#f3eadc",
         "fill-opacity": {
           "base": 1,
           "stops": [
@@ -4088,7 +4088,7 @@
           "stops": [
             [
               4,
-              "#f2e6e7"
+              "#ead5d7"
             ],
             [
               5,

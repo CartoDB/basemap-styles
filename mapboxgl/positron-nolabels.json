@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "name": "@style_name@",
+  "name": "Positron without labels",
   "metadata": {},
   "sources": {
     "carto": {
@@ -8,7 +8,7 @@
       "url": "https://tiles.basemaps.cartocdn.com/vector/carto.streets/v1/tiles.json{api_key}"
     }
   },
-  "sprite": "https://tiles.basemaps.cartocdn.com/gl/@style_path@-gl-style/sprite",
+  "sprite": "https://tiles.basemaps.cartocdn.com/gl/positron-gl-style/sprite",
   "glyphs": "https://tiles.basemaps.cartocdn.com/fonts/{fontstack}/{range}.pbf",
   "layers": [
     {
@@ -18,7 +18,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "background-color": "@landmass_fill@",
+        "background-color": "#fafaf8",
         "background-opacity": 1
       }
     },
@@ -50,23 +50,23 @@
           "stops": [
             [
               8,
-              "@greenarea_fade_1@"
+              "rgba(234, 241, 233, 0.5)"
             ],
             [
               9,
-              "@greenarea_fade_2@"
+              "rgba(234, 241, 233, 0.5)"
             ],
             [
               11,
-              "@greenarea_fade_3@"
+              "rgba(234, 241, 233, 0.5)"
             ],
             [
               13,
-              "@greenarea_fade_4@"
+              "rgba(234, 241, 233, 0.5)"
             ],
             [
               15,
-              "@green_area_highzoom@"
+              "rgba(234, 241, 233, 0.5)"
             ]
           ]
         },
@@ -95,23 +95,23 @@
           "stops": [
             [
               8,
-              "@greenarea_fade_1@"
+              "rgba(234, 241, 233, 0.5)"
             ],
             [
               9,
-              "@greenarea_fade_2@"
+              "rgba(234, 241, 233, 0.5)"
             ],
             [
               11,
-              "@greenarea_fade_3@"
+              "rgba(234, 241, 233, 0.5)"
             ],
             [
               13,
-              "@greenarea_fade_4@"
+              "rgba(234, 241, 233, 0.5)"
             ],
             [
               15,
-              "@green_area_highzoom@"
+              "rgba(234, 241, 233, 0.5)"
             ]
           ]
         },
@@ -141,23 +141,23 @@
           "stops": [
             [
               8,
-              "@greenarea_fade_1@"
+              "rgba(234, 241, 233, 0.5)"
             ],
             [
               9,
-              "@greenarea_fade_2@"
+              "rgba(234, 241, 233, 0.5)"
             ],
             [
               11,
-              "@greenarea_fade_3@"
+              "rgba(234, 241, 233, 0.5)"
             ],
             [
               13,
-              "@greenarea_fade_4@"
+              "rgba(234, 241, 233, 0.5)"
             ],
             [
               15,
-              "@green_area_highzoom@"
+              "rgba(234, 241, 233, 0.5)"
             ]
           ]
         },
@@ -195,31 +195,31 @@
           "stops": [
             [
               5,
-              "@urban_fade_1@"
+              "rgba(237, 237, 237, 0.5)"
             ],
             [
               8,
-              "@urban_fade_2@"
+              "rgba(237, 237, 237, 0.45)"
             ],
             [
               9,
-              "@urban_fade_3@"
+              "rgba(237, 237, 237, 0.4)"
             ],
             [
               11,
-              "@urban_fade_4@"
+              "rgba(237, 237, 237, 0.35)"
             ],
             [
               13,
-              "@urban_fade_5@"
+              "rgba(237, 237, 237, 0.3)"
             ],
             [
               15,
-              "@urban_fade_6@"
+              "rgba(237, 237, 237, 0.25)"
             ],
             [
               16,
-              "@urban_fade_7@"
+              "rgba(237, 237, 237, 0.25)"
             ]
           ]
         },
@@ -260,23 +260,23 @@
           "stops": [
             [
               8,
-              "@greenarea_fade_1@"
+              "rgba(234, 241, 233, 0.5)"
             ],
             [
               9,
-              "@greenarea_fade_2@"
+              "rgba(234, 241, 233, 0.5)"
             ],
             [
               11,
-              "@greenarea_fade_3@"
+              "rgba(234, 241, 233, 0.5)"
             ],
             [
               13,
-              "@greenarea_fade_4@"
+              "rgba(234, 241, 233, 0.5)"
             ],
             [
               15,
-              "@green_area_highzoom@"
+              "rgba(234, 241, 233, 0.5)"
             ]
           ]
         }
@@ -288,7 +288,7 @@
       "source": "carto",
       "source-layer": "waterway",
       "paint": {
-        "line-color": "@rivers_stroke@",
+        "line-color": "#d1dbdf",
         "line-width": {
           "stops": [
             [
@@ -336,15 +336,15 @@
           "stops": [
             [
               4,
-              "@admin1_low@"
+              "#ead5d7"
             ],
             [
               5,
-              "@admin1_low@"
+              "#ead5d7"
             ],
             [
               6,
-              "@admin1_high@"
+              "#e1c5c7"
             ]
           ]
         },
@@ -403,15 +403,15 @@
           "stops": [
             [
               4,
-              "@admin1_low@"
+              "#ead5d7"
             ],
             [
               5,
-              "@admin1_low@"
+              "#ead5d7"
             ],
             [
               6,
-              "@admin1_high@"
+              "#e1c5c7"
             ]
           ]
         },
@@ -473,7 +473,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "fill-color": "@water@",
+        "fill-color": "#d4dadc",
         "fill-antialias": true,
         "fill-translate-anchor": "map",
         "fill-opacity": 1
@@ -497,7 +497,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "fill-color": "@water_shadow@",
+        "fill-color": "transparent",
         "fill-antialias": true,
         "fill-translate-anchor": "map",
         "fill-opacity": 1,
@@ -577,7 +577,7 @@
             ]
           ]
         },
-        "line-color": "@aeroways@"
+        "line-color": "#e8e8e8"
       }
     },
     {
@@ -595,7 +595,7 @@
         ]
       ],
       "paint": {
-        "line-color": "@aeroways@",
+        "line-color": "#e8e8e8",
         "line-width": {
           "stops": [
             [
@@ -664,7 +664,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "@tunnel_case@"
+        "line-color": "#ddd"
       }
     },
     {
@@ -725,7 +725,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "@tunnel_case@"
+        "line-color": "#ddd"
       }
     },
     {
@@ -791,7 +791,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "@tunnel_case@"
+        "line-color": "#ddd"
       }
     },
     {
@@ -880,7 +880,7 @@
             ]
           ]
         },
-        "line-color": "@tunnel_case@"
+        "line-color": "#ddd"
       }
     },
     {
@@ -970,7 +970,7 @@
             ]
           ]
         },
-        "line-color": "@motorway_case@"
+        "line-color": "#ddd"
       }
     },
     {
@@ -1063,7 +1063,7 @@
             ]
           ]
         },
-        "line-color": "@motorway_case@"
+        "line-color": "#ddd"
       }
     },
     {
@@ -1108,7 +1108,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "@path@",
+        "line-color": "#d5d5d5",
         "line-dasharray": {
           "stops": [
             [
@@ -1175,7 +1175,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "@tunnel@"
+        "line-color": "#eee"
       }
     },
     {
@@ -1286,7 +1286,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "@tunnel@"
+        "line-color": "#eee"
       }
     },
     {
@@ -1352,7 +1352,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "@tunnel@"
+        "line-color": "#eee"
       }
     },
     {
@@ -1419,7 +1419,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "@tunnel@"
+        "line-color": "#eee"
       }
     },
     {
@@ -1489,7 +1489,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "@tunnel@"
+        "line-color": "#eee"
       }
     },
     {
@@ -1516,7 +1516,7 @@
         "line-join": "round"
       },
       "paint": {
-        "line-color": "@rail@",
+        "line-color": "#dddddd",
         "line-width": {
           "base": 1.3,
           "stops": [
@@ -1569,7 +1569,7 @@
         "line-join": "round"
       },
       "paint": {
-        "line-color": "@rail_dash@",
+        "line-color": "#ffffff",
         "line-width": {
           "base": 1.3,
           "stops": [
@@ -1653,7 +1653,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "@minor_case@"
+        "line-color": "#ddd"
       }
     },
     {
@@ -1718,15 +1718,15 @@
           "stops": [
             [
               13,
-              "@street_lowzoom@"
+              "#e6e6e6"
             ],
             [
               15.7,
-              "@street_lowzoom@"
+              "#e6e6e6"
             ],
             [
               16,
-              "@minor_case@"
+              "#ddd"
             ]
           ]
         }
@@ -1797,7 +1797,7 @@
             ]
           ]
         },
-        "line-color": "@main_case@"
+        "line-color": "#ddd"
       }
     },
     {
@@ -1858,11 +1858,11 @@
           "stops": [
             [
               12,
-              "@motorway_case_lowzoom@"
+              "#e6e6e6"
             ],
             [
               14,
-              "@motorway_case@"
+              "#ddd"
             ]
           ]
         }
@@ -1926,11 +1926,11 @@
           "stops": [
             [
               12,
-              "@motorway_case_lowzoom@"
+              "#e6e6e6"
             ],
             [
               14,
-              "@motorway_case@"
+              "#ddd"
             ]
           ]
         }
@@ -2002,15 +2002,15 @@
           "stops": [
             [
               11,
-              "@secondary_case_lowzoom@"
+              "#e6e6e6"
             ],
             [
               12.99,
-              "@secondary_case_lowzoom@"
+              "#e6e6e6"
             ],
             [
               13,
-              "@secondary_case@"
+              "#ddd"
             ]
           ]
         }
@@ -2105,11 +2105,11 @@
           "stops": [
             [
               7,
-              "@main_case_lowzoom@"
+              "#e6e6e6"
             ],
             [
               12,
-              "@main_case@"
+              "#ddd"
             ]
           ]
         }
@@ -2204,11 +2204,11 @@
           "stops": [
             [
               5,
-              "@main_case_lowzoom@"
+              "#e6e6e6"
             ],
             [
               12,
-              "@motorway_case@"
+              "#ddd"
             ]
           ]
         }
@@ -2307,11 +2307,11 @@
           "stops": [
             [
               5,
-              "@motorway_case_lowzoom@"
+              "#e6e6e6"
             ],
             [
               12,
-              "@motorway_case@"
+              "#ddd"
             ]
           ]
         }
@@ -2359,7 +2359,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "@path@",
+        "line-color": "#d5d5d5",
         "line-dasharray": {
           "stops": [
             [
@@ -2425,7 +2425,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "@street@"
+        "line-color": "#fdfdfd"
       }
     },
     {
@@ -2473,7 +2473,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "@street@"
+        "line-color": "#fdfdfd"
       }
     },
     {
@@ -2530,7 +2530,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "@main@"
+        "line-color": "#fff"
       }
     },
     {
@@ -2587,7 +2587,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "@motorway@"
+        "line-color": "#fff"
       }
     },
     {
@@ -2644,7 +2644,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "@motorway@"
+        "line-color": "#fff"
       }
     },
     {
@@ -2705,7 +2705,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "@main@"
+        "line-color": "#fff"
       }
     },
     {
@@ -2770,7 +2770,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "@main@"
+        "line-color": "#fff"
       }
     },
     {
@@ -2835,7 +2835,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "@motorway@"
+        "line-color": "#fff"
       }
     },
     {
@@ -2904,7 +2904,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "@motorway@"
+        "line-color": "#fff"
       }
     },
     {
@@ -2931,7 +2931,7 @@
         "line-join": "round"
       },
       "paint": {
-        "line-color": "@rail@",
+        "line-color": "#dddddd",
         "line-width": {
           "base": 1.3,
           "stops": [
@@ -2983,7 +2983,7 @@
         "line-join": "round"
       },
       "paint": {
-        "line-color": "@rail_dash@",
+        "line-color": "#ffffff",
         "line-width": {
           "base": 1.3,
           "stops": [
@@ -3067,7 +3067,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "@minor_case@"
+        "line-color": "#ddd"
       }
     },
     {
@@ -3133,15 +3133,15 @@
           "stops": [
             [
               13,
-              "@street_lowzoom@"
+              "#e6e6e6"
             ],
             [
               15.7,
-              "@street_lowzoom@"
+              "#e6e6e6"
             ],
             [
               16,
-              "@minor_case@"
+              "#ddd"
             ]
           ]
         }
@@ -3214,15 +3214,15 @@
           "stops": [
             [
               11,
-              "@secondary_case_lowzoom@"
+              "#e6e6e6"
             ],
             [
               12.99,
-              "@secondary_case_lowzoom@"
+              "#e6e6e6"
             ],
             [
               13,
-              "@secondary_case@"
+              "#ddd"
             ]
           ]
         }
@@ -3318,11 +3318,11 @@
           "stops": [
             [
               8,
-              "@main_case_lowzoom@"
+              "#e6e6e6"
             ],
             [
               12,
-              "@main_case@"
+              "#ddd"
             ]
           ]
         }
@@ -3419,11 +3419,11 @@
           "stops": [
             [
               5,
-              "@motorway_case_lowzoom@"
+              "#e6e6e6"
             ],
             [
               12,
-              "@motorway_case@"
+              "#ddd"
             ]
           ]
         }
@@ -3523,11 +3523,11 @@
           "stops": [
             [
               5,
-              "@motorway_case_lowzoom@"
+              "#e6e6e6"
             ],
             [
               10,
-              "@motorway_case@"
+              "#ddd"
             ]
           ]
         }
@@ -3575,7 +3575,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "@path@",
+        "line-color": "#d5d5d5",
         "line-dasharray": {
           "stops": [
             [
@@ -3642,7 +3642,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "@street@"
+        "line-color": "#fdfdfd"
       }
     },
     {
@@ -3691,7 +3691,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "@street@"
+        "line-color": "#fdfdfd"
       }
     },
     {
@@ -3753,7 +3753,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "@main@"
+        "line-color": "#fff"
       }
     },
     {
@@ -3819,7 +3819,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "@main@"
+        "line-color": "#fff"
       }
     },
     {
@@ -3886,7 +3886,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "@motorway@"
+        "line-color": "#fff"
       }
     },
     {
@@ -3956,7 +3956,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "@motorway@"
+        "line-color": "#fff"
       }
     },
     {
@@ -3973,11 +3973,11 @@
           "stops": [
             [
               15.5,
-              "@building_shadow@"
+              "#dfdfdf"
             ],
             [
               16,
-              "@building_shadow@"
+              "#dfdfdf"
             ]
           ]
         },
@@ -4012,8 +4012,8 @@
             ]
           ]
         },
-        "fill-outline-color": "@building_outline@",
-        "fill-color": "@buildings@",
+        "fill-outline-color": "#dfdfdf",
+        "fill-color": "#ededed",
         "fill-opacity": {
           "base": 1,
           "stops": [
@@ -4054,7 +4054,7 @@
         "line-join": "round"
       },
       "paint": {
-        "line-color": "@admin0_6@",
+        "line-color": "#f3efed",
         "line-opacity": 0.5,
         "line-width": 8,
         "line-offset": 0
@@ -4088,15 +4088,15 @@
           "stops": [
             [
               4,
-              "@admin0_3@"
+              "#f2e6e7"
             ],
             [
               5,
-              "@admin0_5@"
+              "#ebd6d8"
             ],
             [
               6,
-              "@admin0_5@"
+              "#ebd6d8"
             ]
           ]
         },

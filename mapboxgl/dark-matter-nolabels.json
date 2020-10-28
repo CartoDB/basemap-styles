@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "name": "Voyager",
+  "name": "Dark Matter without labels",
   "metadata": {},
   "sources": {
     "carto": {
@@ -8,7 +8,7 @@
       "url": "https://tiles.basemaps.cartocdn.com/vector/carto.streets/v1/tiles.json{api_key}"
     }
   },
-  "sprite": "https://tiles.basemaps.cartocdn.com/gl/voyager-gl-style/sprite",
+  "sprite": "https://tiles.basemaps.cartocdn.com/gl/dark-matter-gl-style/sprite",
   "glyphs": "https://tiles.basemaps.cartocdn.com/fonts/{fontstack}/{range}.pbf",
   "layers": [
     {
@@ -18,7 +18,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "background-color": "#fbf8f3",
+        "background-color": "#0e0e0e",
         "background-opacity": 1
       }
     },
@@ -50,23 +50,23 @@
           "stops": [
             [
               8,
-              "rgba(197, 225, 178, 0.2)"
+              "#0e0e0e"
             ],
             [
               9,
-              "rgba(197, 225, 178, 0.25)"
+              "#0e0e0e"
             ],
             [
               11,
-              "rgba(197, 225, 178, 0.35)"
+              "#0e0e0e"
             ],
             [
               13,
-              "rgba(197, 225, 178, 0.4)"
+              "#0e0e0e"
             ],
             [
               15,
-              "#e0ecd3"
+              "#0e0e0e"
             ]
           ]
         },
@@ -95,23 +95,23 @@
           "stops": [
             [
               8,
-              "rgba(197, 225, 178, 0.2)"
+              "#0e0e0e"
             ],
             [
               9,
-              "rgba(197, 225, 178, 0.25)"
+              "#0e0e0e"
             ],
             [
               11,
-              "rgba(197, 225, 178, 0.35)"
+              "#0e0e0e"
             ],
             [
               13,
-              "rgba(197, 225, 178, 0.4)"
+              "#0e0e0e"
             ],
             [
               15,
-              "#e0ecd3"
+              "#0e0e0e"
             ]
           ]
         },
@@ -141,23 +141,23 @@
           "stops": [
             [
               8,
-              "rgba(197, 225, 178, 0.2)"
+              "#0e0e0e"
             ],
             [
               9,
-              "rgba(197, 225, 178, 0.25)"
+              "#0e0e0e"
             ],
             [
               11,
-              "rgba(197, 225, 178, 0.35)"
+              "#0e0e0e"
             ],
             [
               13,
-              "rgba(197, 225, 178, 0.4)"
+              "#0e0e0e"
             ],
             [
               15,
-              "#e0ecd3"
+              "#0e0e0e"
             ]
           ]
         },
@@ -195,31 +195,31 @@
           "stops": [
             [
               5,
-              "rgba(243, 234, 220, 0.5)"
+              "rgba(0, 0, 0, 0.5)"
             ],
             [
               8,
-              "rgba(243, 234, 220, 0.45)"
+              "rgba(0, 0, 0, 0.45)"
             ],
             [
               9,
-              "rgba(243, 234, 220, 0.4)"
+              "rgba(0, 0, 0, 0.4)"
             ],
             [
               11,
-              "rgba(243, 234, 220, 0.35)"
+              "rgba(0, 0, 0, 0.35)"
             ],
             [
               13,
-              "rgba(243, 234, 220, 0.3)"
+              "rgba(0, 0, 0, 0.3)"
             ],
             [
               15,
-              "rgba(243, 234, 220, 0.25)"
+              "rgba(0, 0, 0, 0.25)"
             ],
             [
               16,
-              "rgba(243, 234, 220, 0.15)"
+              "rgba(0, 0, 0, 0.15)"
             ]
           ]
         },
@@ -260,23 +260,23 @@
           "stops": [
             [
               8,
-              "rgba(197, 225, 178, 0.2)"
+              "#0e0e0e"
             ],
             [
               9,
-              "rgba(197, 225, 178, 0.25)"
+              "#0e0e0e"
             ],
             [
               11,
-              "rgba(197, 225, 178, 0.35)"
+              "#0e0e0e"
             ],
             [
               13,
-              "rgba(197, 225, 178, 0.4)"
+              "#0e0e0e"
             ],
             [
               15,
-              "#e0ecd3"
+              "#0e0e0e"
             ]
           ]
         }
@@ -288,7 +288,7 @@
       "source": "carto",
       "source-layer": "waterway",
       "paint": {
-        "line-color": "#cce7ea",
+        "line-color": "#151515",
         "line-width": {
           "stops": [
             [
@@ -336,15 +336,15 @@
           "stops": [
             [
               4,
-              "#d4d5d6"
+              "#222"
             ],
             [
               5,
-              "#d4d5d6"
+              "#222"
             ],
             [
               6,
-              "#e1c5c7"
+              "#292929"
             ]
           ]
         },
@@ -403,15 +403,15 @@
           "stops": [
             [
               4,
-              "#d4d5d6"
+              "#222"
             ],
             [
               5,
-              "#d4d5d6"
+              "#222"
             ],
             [
               6,
-              "#e1c5c7"
+              "#292929"
             ]
           ]
         },
@@ -473,7 +473,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "fill-color": "#b0d0d6",
+        "fill-color": "#212121",
         "fill-antialias": true,
         "fill-translate-anchor": "map",
         "fill-opacity": 1
@@ -497,7 +497,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "fill-color": "rgba(203, 225, 228, 1)",
+        "fill-color": "transparent",
         "fill-antialias": true,
         "fill-translate-anchor": "map",
         "fill-opacity": 1,
@@ -577,7 +577,7 @@
             ]
           ]
         },
-        "line-color": "#e8e8e8"
+        "line-color": "#111"
       }
     },
     {
@@ -595,7 +595,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#e8e8e8",
+        "line-color": "#111",
         "line-width": {
           "stops": [
             [
@@ -664,7 +664,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#e6dfcb"
+        "line-color": "#1a1a1a"
       }
     },
     {
@@ -725,7 +725,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#e6dfcb"
+        "line-color": "#1a1a1a"
       }
     },
     {
@@ -791,7 +791,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#e6dfcb"
+        "line-color": "#1a1a1a"
       }
     },
     {
@@ -880,7 +880,7 @@
             ]
           ]
         },
-        "line-color": "#e6dfcb"
+        "line-color": "#1a1a1a"
       }
     },
     {
@@ -970,7 +970,7 @@
             ]
           ]
         },
-        "line-color": "#fbdb98"
+        "line-color": "#232323"
       }
     },
     {
@@ -1063,7 +1063,7 @@
             ]
           ]
         },
-        "line-color": "#fbdb98"
+        "line-color": "#232323"
       }
     },
     {
@@ -1108,7 +1108,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#d7d7d7",
+        "line-color": "#262626",
         "line-dasharray": {
           "stops": [
             [
@@ -1175,7 +1175,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#f0eee7"
+        "line-color": "#161616"
       }
     },
     {
@@ -1286,7 +1286,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#f0eee7"
+        "line-color": "#161616"
       }
     },
     {
@@ -1352,7 +1352,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#f0eee7"
+        "line-color": "#161616"
       }
     },
     {
@@ -1419,7 +1419,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#f0eee7"
+        "line-color": "#161616"
       }
     },
     {
@@ -1489,7 +1489,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#f0eee7"
+        "line-color": "#161616"
       }
     },
     {
@@ -1516,7 +1516,7 @@
         "line-join": "round"
       },
       "paint": {
-        "line-color": "#dddddd",
+        "line-color": "#1a1a1a",
         "line-width": {
           "base": 1.3,
           "stops": [
@@ -1569,7 +1569,7 @@
         "line-join": "round"
       },
       "paint": {
-        "line-color": "#ffffff",
+        "line-color": "#111",
         "line-width": {
           "base": 1.3,
           "stops": [
@@ -1653,7 +1653,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#fdebce"
+        "line-color": "#1c1c1c"
       }
     },
     {
@@ -1718,15 +1718,15 @@
           "stops": [
             [
               13,
-              "#ffffff"
+              "#161616"
             ],
             [
               15.7,
-              "#ffffff"
+              "#161616"
             ],
             [
               16,
-              "#fdebce"
+              "#1c1c1c"
             ]
           ]
         }
@@ -1797,7 +1797,7 @@
             ]
           ]
         },
-        "line-color": "#ffeabb"
+        "line-color": "#232323"
       }
     },
     {
@@ -1858,11 +1858,11 @@
           "stops": [
             [
               12,
-              "#fbdb98"
+              "#1a1a1a"
             ],
             [
               14,
-              "#fbdb98"
+              "#232323"
             ]
           ]
         }
@@ -1926,11 +1926,11 @@
           "stops": [
             [
               12,
-              "#fbdb98"
+              "#1a1a1a"
             ],
             [
               14,
-              "#fbdb98"
+              "#232323"
             ]
           ]
         }
@@ -2002,15 +2002,15 @@
           "stops": [
             [
               11,
-              "#fffef9"
+              "#1a1a1a"
             ],
             [
               12.99,
-              "#fffef9"
+              "#1a1a1a"
             ],
             [
               13,
-              "#ffedc0"
+              "#232323"
             ]
           ]
         }
@@ -2105,11 +2105,11 @@
           "stops": [
             [
               7,
-              "#ffe7b7"
+              "#1a1a1a"
             ],
             [
               12,
-              "#ffeabb"
+              "#232323"
             ]
           ]
         }
@@ -2204,11 +2204,11 @@
           "stops": [
             [
               5,
-              "#ffe7b7"
+              "#1a1a1a"
             ],
             [
               12,
-              "#fbdb98"
+              "#232323"
             ]
           ]
         }
@@ -2307,11 +2307,11 @@
           "stops": [
             [
               5,
-              "#fbdb98"
+              "#1a1a1a"
             ],
             [
               12,
-              "#fbdb98"
+              "#232323"
             ]
           ]
         }
@@ -2359,7 +2359,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#d7d7d7",
+        "line-color": "#262626",
         "line-dasharray": {
           "stops": [
             [
@@ -2425,7 +2425,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#ffffff"
+        "line-color": "#0b0b0b"
       }
     },
     {
@@ -2473,7 +2473,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#ffffff"
+        "line-color": "#0b0b0b"
       }
     },
     {
@@ -2530,7 +2530,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#fefdd7"
+        "line-color": "#0b0b0b"
       }
     },
     {
@@ -2587,7 +2587,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#FFE9A5"
+        "line-color": "#0b0b0b"
       }
     },
     {
@@ -2644,7 +2644,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#FFE9A5"
+        "line-color": "#0b0b0b"
       }
     },
     {
@@ -2705,7 +2705,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#fefdd7"
+        "line-color": "#0b0b0b"
       }
     },
     {
@@ -2770,7 +2770,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#fefdd7"
+        "line-color": "#0b0b0b"
       }
     },
     {
@@ -2835,7 +2835,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#FFE9A5"
+        "line-color": "#0b0b0b"
       }
     },
     {
@@ -2904,7 +2904,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#FFE9A5"
+        "line-color": "#0b0b0b"
       }
     },
     {
@@ -2931,7 +2931,7 @@
         "line-join": "round"
       },
       "paint": {
-        "line-color": "#dddddd",
+        "line-color": "#1a1a1a",
         "line-width": {
           "base": 1.3,
           "stops": [
@@ -2983,7 +2983,7 @@
         "line-join": "round"
       },
       "paint": {
-        "line-color": "#ffffff",
+        "line-color": "#111",
         "line-width": {
           "base": 1.3,
           "stops": [
@@ -3067,7 +3067,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#fdebce"
+        "line-color": "#1c1c1c"
       }
     },
     {
@@ -3133,15 +3133,15 @@
           "stops": [
             [
               13,
-              "#ffffff"
+              "#161616"
             ],
             [
               15.7,
-              "#ffffff"
+              "#161616"
             ],
             [
               16,
-              "#fdebce"
+              "#1c1c1c"
             ]
           ]
         }
@@ -3214,15 +3214,15 @@
           "stops": [
             [
               11,
-              "#fffef9"
+              "#1a1a1a"
             ],
             [
               12.99,
-              "#fffef9"
+              "#1a1a1a"
             ],
             [
               13,
-              "#ffedc0"
+              "#232323"
             ]
           ]
         }
@@ -3318,11 +3318,11 @@
           "stops": [
             [
               8,
-              "#ffe7b7"
+              "#1a1a1a"
             ],
             [
               12,
-              "#ffeabb"
+              "#232323"
             ]
           ]
         }
@@ -3419,11 +3419,11 @@
           "stops": [
             [
               5,
-              "#fbdb98"
+              "#1a1a1a"
             ],
             [
               12,
-              "#fbdb98"
+              "#232323"
             ]
           ]
         }
@@ -3523,11 +3523,11 @@
           "stops": [
             [
               5,
-              "#fbdb98"
+              "#1a1a1a"
             ],
             [
               10,
-              "#fbdb98"
+              "#232323"
             ]
           ]
         }
@@ -3575,7 +3575,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#d7d7d7",
+        "line-color": "#262626",
         "line-dasharray": {
           "stops": [
             [
@@ -3642,7 +3642,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#ffffff"
+        "line-color": "#0b0b0b"
       }
     },
     {
@@ -3691,7 +3691,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#ffffff"
+        "line-color": "#0b0b0b"
       }
     },
     {
@@ -3753,7 +3753,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#fefdd7"
+        "line-color": "#0b0b0b"
       }
     },
     {
@@ -3819,7 +3819,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#fefdd7"
+        "line-color": "#0b0b0b"
       }
     },
     {
@@ -3886,7 +3886,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#FFE9A5"
+        "line-color": "#0b0b0b"
       }
     },
     {
@@ -3956,7 +3956,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#FFE9A5"
+        "line-color": "#0b0b0b"
       }
     },
     {
@@ -3973,11 +3973,11 @@
           "stops": [
             [
               15.5,
-              "#e4dcd0"
+              "transparent"
             ],
             [
               16,
-              "#e4dcd0"
+              "transparent"
             ]
           ]
         },
@@ -4012,8 +4012,8 @@
             ]
           ]
         },
-        "fill-outline-color": "#e9d8be",
-        "fill-color": "#f3eadc",
+        "fill-outline-color": "#0e0e0e",
+        "fill-color": "#000",
         "fill-opacity": {
           "base": 1,
           "stops": [
@@ -4054,7 +4054,7 @@
         "line-join": "round"
       },
       "paint": {
-        "line-color": "#f3efed",
+        "line-color": "#0e0e0e",
         "line-opacity": 0.5,
         "line-width": 8,
         "line-offset": 0
@@ -4088,15 +4088,15 @@
           "stops": [
             [
               4,
-              "#ead5d7"
+              "#222"
             ],
             [
               5,
-              "#ebd6d8"
+              "#292929"
             ],
             [
               6,
-              "#ebd6d8"
+              "#292929"
             ]
           ]
         },

@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "name": "Dark Matter",
+  "name": "@style_name@ without labels",
   "metadata": {},
   "sources": {
     "carto": {
@@ -8,7 +8,7 @@
       "url": "https://tiles.basemaps.cartocdn.com/vector/carto.streets/v1/tiles.json{api_key}"
     }
   },
-  "sprite": "https://tiles.basemaps.cartocdn.com/gl/dark-matter-gl-style/sprite",
+  "sprite": "https://tiles.basemaps.cartocdn.com/gl/@style_path@-gl-style/sprite",
   "glyphs": "https://tiles.basemaps.cartocdn.com/fonts/{fontstack}/{range}.pbf",
   "layers": [
     {
@@ -18,7 +18,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "background-color": "#0e0e0e",
+        "background-color": "@landmass_fill@",
         "background-opacity": 1
       }
     },
@@ -50,23 +50,23 @@
           "stops": [
             [
               8,
-              "#0e0e0e"
+              "@greenarea_fade_1@"
             ],
             [
               9,
-              "#0e0e0e"
+              "@greenarea_fade_2@"
             ],
             [
               11,
-              "#0e0e0e"
+              "@greenarea_fade_3@"
             ],
             [
               13,
-              "#0e0e0e"
+              "@greenarea_fade_4@"
             ],
             [
               15,
-              "#0e0e0e"
+              "@green_area_highzoom@"
             ]
           ]
         },
@@ -95,23 +95,23 @@
           "stops": [
             [
               8,
-              "#0e0e0e"
+              "@greenarea_fade_1@"
             ],
             [
               9,
-              "#0e0e0e"
+              "@greenarea_fade_2@"
             ],
             [
               11,
-              "#0e0e0e"
+              "@greenarea_fade_3@"
             ],
             [
               13,
-              "#0e0e0e"
+              "@greenarea_fade_4@"
             ],
             [
               15,
-              "#0e0e0e"
+              "@green_area_highzoom@"
             ]
           ]
         },
@@ -141,23 +141,23 @@
           "stops": [
             [
               8,
-              "#0e0e0e"
+              "@greenarea_fade_1@"
             ],
             [
               9,
-              "#0e0e0e"
+              "@greenarea_fade_2@"
             ],
             [
               11,
-              "#0e0e0e"
+              "@greenarea_fade_3@"
             ],
             [
               13,
-              "#0e0e0e"
+              "@greenarea_fade_4@"
             ],
             [
               15,
-              "#0e0e0e"
+              "@green_area_highzoom@"
             ]
           ]
         },
@@ -195,31 +195,31 @@
           "stops": [
             [
               5,
-              "rgba(0, 0, 0, 0.5)"
+              "@urban_fade_1@"
             ],
             [
               8,
-              "rgba(0, 0, 0, 0.45)"
+              "@urban_fade_2@"
             ],
             [
               9,
-              "rgba(0, 0, 0, 0.4)"
+              "@urban_fade_3@"
             ],
             [
               11,
-              "rgba(0, 0, 0, 0.35)"
+              "@urban_fade_4@"
             ],
             [
               13,
-              "rgba(0, 0, 0, 0.3)"
+              "@urban_fade_5@"
             ],
             [
               15,
-              "rgba(0, 0, 0, 0.25)"
+              "@urban_fade_6@"
             ],
             [
               16,
-              "rgba(0, 0, 0, 0.15)"
+              "@urban_fade_7@"
             ]
           ]
         },
@@ -260,23 +260,23 @@
           "stops": [
             [
               8,
-              "#0e0e0e"
+              "@greenarea_fade_1@"
             ],
             [
               9,
-              "#0e0e0e"
+              "@greenarea_fade_2@"
             ],
             [
               11,
-              "#0e0e0e"
+              "@greenarea_fade_3@"
             ],
             [
               13,
-              "#0e0e0e"
+              "@greenarea_fade_4@"
             ],
             [
               15,
-              "#0e0e0e"
+              "@green_area_highzoom@"
             ]
           ]
         }
@@ -288,7 +288,7 @@
       "source": "carto",
       "source-layer": "waterway",
       "paint": {
-        "line-color": "#151515",
+        "line-color": "@rivers_stroke@",
         "line-width": {
           "stops": [
             [
@@ -336,15 +336,15 @@
           "stops": [
             [
               4,
-              "#222"
+              "@admin1_low@"
             ],
             [
               5,
-              "#222"
+              "@admin1_low@"
             ],
             [
               6,
-              "#292929"
+              "@admin1_high@"
             ]
           ]
         },
@@ -403,15 +403,15 @@
           "stops": [
             [
               4,
-              "#222"
+              "@admin1_low@"
             ],
             [
               5,
-              "#222"
+              "@admin1_low@"
             ],
             [
               6,
-              "#292929"
+              "@admin1_high@"
             ]
           ]
         },
@@ -473,7 +473,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "fill-color": "#212121",
+        "fill-color": "@water@",
         "fill-antialias": true,
         "fill-translate-anchor": "map",
         "fill-opacity": 1
@@ -497,7 +497,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "fill-color": "transparent",
+        "fill-color": "@water_shadow@",
         "fill-antialias": true,
         "fill-translate-anchor": "map",
         "fill-opacity": 1,
@@ -577,7 +577,7 @@
             ]
           ]
         },
-        "line-color": "#111"
+        "line-color": "@aeroways@"
       }
     },
     {
@@ -595,7 +595,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#111",
+        "line-color": "@aeroways@",
         "line-width": {
           "stops": [
             [
@@ -664,7 +664,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#1a1a1a"
+        "line-color": "@tunnel_case@"
       }
     },
     {
@@ -725,7 +725,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#1a1a1a"
+        "line-color": "@tunnel_case@"
       }
     },
     {
@@ -791,7 +791,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#1a1a1a"
+        "line-color": "@tunnel_case@"
       }
     },
     {
@@ -880,7 +880,7 @@
             ]
           ]
         },
-        "line-color": "#1a1a1a"
+        "line-color": "@tunnel_case@"
       }
     },
     {
@@ -970,7 +970,7 @@
             ]
           ]
         },
-        "line-color": "#232323"
+        "line-color": "@motorway_case@"
       }
     },
     {
@@ -1063,7 +1063,7 @@
             ]
           ]
         },
-        "line-color": "#232323"
+        "line-color": "@motorway_case@"
       }
     },
     {
@@ -1108,7 +1108,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#262626",
+        "line-color": "@path@",
         "line-dasharray": {
           "stops": [
             [
@@ -1175,7 +1175,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#161616"
+        "line-color": "@tunnel@"
       }
     },
     {
@@ -1286,7 +1286,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#161616"
+        "line-color": "@tunnel@"
       }
     },
     {
@@ -1352,7 +1352,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#161616"
+        "line-color": "@tunnel@"
       }
     },
     {
@@ -1419,7 +1419,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#161616"
+        "line-color": "@tunnel@"
       }
     },
     {
@@ -1489,7 +1489,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#161616"
+        "line-color": "@tunnel@"
       }
     },
     {
@@ -1516,7 +1516,7 @@
         "line-join": "round"
       },
       "paint": {
-        "line-color": "#1a1a1a",
+        "line-color": "@rail@",
         "line-width": {
           "base": 1.3,
           "stops": [
@@ -1569,7 +1569,7 @@
         "line-join": "round"
       },
       "paint": {
-        "line-color": "#111",
+        "line-color": "@rail_dash@",
         "line-width": {
           "base": 1.3,
           "stops": [
@@ -1653,7 +1653,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#1c1c1c"
+        "line-color": "@minor_case@"
       }
     },
     {
@@ -1718,15 +1718,15 @@
           "stops": [
             [
               13,
-              "#161616"
+              "@street_lowzoom@"
             ],
             [
               15.7,
-              "#161616"
+              "@street_lowzoom@"
             ],
             [
               16,
-              "#1c1c1c"
+              "@minor_case@"
             ]
           ]
         }
@@ -1797,7 +1797,7 @@
             ]
           ]
         },
-        "line-color": "#232323"
+        "line-color": "@main_case@"
       }
     },
     {
@@ -1858,11 +1858,11 @@
           "stops": [
             [
               12,
-              "#1a1a1a"
+              "@motorway_case_lowzoom@"
             ],
             [
               14,
-              "#232323"
+              "@motorway_case@"
             ]
           ]
         }
@@ -1926,11 +1926,11 @@
           "stops": [
             [
               12,
-              "#1a1a1a"
+              "@motorway_case_lowzoom@"
             ],
             [
               14,
-              "#232323"
+              "@motorway_case@"
             ]
           ]
         }
@@ -2002,15 +2002,15 @@
           "stops": [
             [
               11,
-              "#1a1a1a"
+              "@secondary_case_lowzoom@"
             ],
             [
               12.99,
-              "#1a1a1a"
+              "@secondary_case_lowzoom@"
             ],
             [
               13,
-              "#232323"
+              "@secondary_case@"
             ]
           ]
         }
@@ -2105,11 +2105,11 @@
           "stops": [
             [
               7,
-              "#1a1a1a"
+              "@main_case_lowzoom@"
             ],
             [
               12,
-              "#232323"
+              "@main_case@"
             ]
           ]
         }
@@ -2204,11 +2204,11 @@
           "stops": [
             [
               5,
-              "#1a1a1a"
+              "@main_case_lowzoom@"
             ],
             [
               12,
-              "#232323"
+              "@motorway_case@"
             ]
           ]
         }
@@ -2307,11 +2307,11 @@
           "stops": [
             [
               5,
-              "#1a1a1a"
+              "@motorway_case_lowzoom@"
             ],
             [
               12,
-              "#232323"
+              "@motorway_case@"
             ]
           ]
         }
@@ -2359,7 +2359,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#262626",
+        "line-color": "@path@",
         "line-dasharray": {
           "stops": [
             [
@@ -2425,7 +2425,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#0b0b0b"
+        "line-color": "@street@"
       }
     },
     {
@@ -2473,7 +2473,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#0b0b0b"
+        "line-color": "@street@"
       }
     },
     {
@@ -2530,7 +2530,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#0b0b0b"
+        "line-color": "@main@"
       }
     },
     {
@@ -2587,7 +2587,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#0b0b0b"
+        "line-color": "@motorway@"
       }
     },
     {
@@ -2644,7 +2644,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#0b0b0b"
+        "line-color": "@motorway@"
       }
     },
     {
@@ -2705,7 +2705,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#0b0b0b"
+        "line-color": "@main@"
       }
     },
     {
@@ -2770,7 +2770,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#0b0b0b"
+        "line-color": "@main@"
       }
     },
     {
@@ -2835,7 +2835,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#0b0b0b"
+        "line-color": "@motorway@"
       }
     },
     {
@@ -2904,7 +2904,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#0b0b0b"
+        "line-color": "@motorway@"
       }
     },
     {
@@ -2931,7 +2931,7 @@
         "line-join": "round"
       },
       "paint": {
-        "line-color": "#1a1a1a",
+        "line-color": "@rail@",
         "line-width": {
           "base": 1.3,
           "stops": [
@@ -2983,7 +2983,7 @@
         "line-join": "round"
       },
       "paint": {
-        "line-color": "#111",
+        "line-color": "@rail_dash@",
         "line-width": {
           "base": 1.3,
           "stops": [
@@ -3067,7 +3067,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#1c1c1c"
+        "line-color": "@minor_case@"
       }
     },
     {
@@ -3133,15 +3133,15 @@
           "stops": [
             [
               13,
-              "#161616"
+              "@street_lowzoom@"
             ],
             [
               15.7,
-              "#161616"
+              "@street_lowzoom@"
             ],
             [
               16,
-              "#1c1c1c"
+              "@minor_case@"
             ]
           ]
         }
@@ -3214,15 +3214,15 @@
           "stops": [
             [
               11,
-              "#1a1a1a"
+              "@secondary_case_lowzoom@"
             ],
             [
               12.99,
-              "#1a1a1a"
+              "@secondary_case_lowzoom@"
             ],
             [
               13,
-              "#232323"
+              "@secondary_case@"
             ]
           ]
         }
@@ -3318,11 +3318,11 @@
           "stops": [
             [
               8,
-              "#1a1a1a"
+              "@main_case_lowzoom@"
             ],
             [
               12,
-              "#232323"
+              "@main_case@"
             ]
           ]
         }
@@ -3419,11 +3419,11 @@
           "stops": [
             [
               5,
-              "#1a1a1a"
+              "@motorway_case_lowzoom@"
             ],
             [
               12,
-              "#232323"
+              "@motorway_case@"
             ]
           ]
         }
@@ -3523,11 +3523,11 @@
           "stops": [
             [
               5,
-              "#1a1a1a"
+              "@motorway_case_lowzoom@"
             ],
             [
               10,
-              "#232323"
+              "@motorway_case@"
             ]
           ]
         }
@@ -3575,7 +3575,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#262626",
+        "line-color": "@path@",
         "line-dasharray": {
           "stops": [
             [
@@ -3642,7 +3642,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#0b0b0b"
+        "line-color": "@street@"
       }
     },
     {
@@ -3691,7 +3691,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#0b0b0b"
+        "line-color": "@street@"
       }
     },
     {
@@ -3753,7 +3753,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#0b0b0b"
+        "line-color": "@main@"
       }
     },
     {
@@ -3819,7 +3819,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#0b0b0b"
+        "line-color": "@main@"
       }
     },
     {
@@ -3886,7 +3886,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#0b0b0b"
+        "line-color": "@motorway@"
       }
     },
     {
@@ -3956,7 +3956,7 @@
           ]
         },
         "line-opacity": 1,
-        "line-color": "#0b0b0b"
+        "line-color": "@motorway@"
       }
     },
     {
@@ -3973,11 +3973,11 @@
           "stops": [
             [
               15.5,
-              "transparent"
+              "@building_shadow@"
             ],
             [
               16,
-              "transparent"
+              "@building_shadow@"
             ]
           ]
         },
@@ -4012,8 +4012,8 @@
             ]
           ]
         },
-        "fill-outline-color": "#0e0e0e",
-        "fill-color": "#000",
+        "fill-outline-color": "@building_outline@",
+        "fill-color": "@buildings@",
         "fill-opacity": {
           "base": 1,
           "stops": [
@@ -4054,7 +4054,7 @@
         "line-join": "round"
       },
       "paint": {
-        "line-color": "#0e0e0e",
+        "line-color": "@admin0_6@",
         "line-opacity": 0.5,
         "line-width": 8,
         "line-offset": 0
@@ -4088,15 +4088,15 @@
           "stops": [
             [
               4,
-              "#222"
+              "@admin0_3@"
             ],
             [
               5,
-              "#292929"
+              "@admin0_5@"
             ],
             [
               6,
-              "#292929"
+              "@admin0_5@"
             ]
           ]
         },
