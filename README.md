@@ -3,6 +3,8 @@ CARTO Basemap styles for web and mobile, raster and vector. Preview and compare 
 
 This repository has working copies of basemap cartographic styles for different targets
 
+> **Terms of service:** for more information about CARTO basemaps use, pricing and terms of service, please double check https://carto.com/basemaps
+
 ## Source data
 
 The styles are based on current version of OpenMapTiles data schema and vector tiles: https://openmaptiles.org/schema 
@@ -39,7 +41,6 @@ rastertiles/voyager_nolabels,
 rastertiles/voyager_only_labels,
 rastertiles/voyager_labels_under
 ```
-**Limitations:** free usage for up to 75,000 mapviews per month, none-commercial services only. For bigger usage and other cases contact CARTO sales for enterprise service key.
 
 Sample with Leaflet JS:
 ```
