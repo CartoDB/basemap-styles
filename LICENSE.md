@@ -1,5 +1,11 @@
-Copyright (c) 2018, CartoDB Inc.  
+Copyright (c) 2018, CartoDB Inc.
 All rights reserved.
+
+# IMPORTANT: CARTO Basemap Services
+
+**This repository contains the open-source style definitions for CARTO basemaps. However, access to CARTO's basemap tile services is restricted to CARTO enterprise customers only and is not available for free public use.**
+
+While the style code in this repository is open source, using CARTO's hosted basemap tiles requires a valid enterprise agreement with CARTO. For information about enterprise access, please contact CARTO at sales@carto.com.
 
 # Code license: BSD 3-Clause License
 
