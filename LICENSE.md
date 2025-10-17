@@ -5,8 +5,7 @@ All rights reserved.
 
 **This repository contains the open-source style definitions for CARTO basemaps. However, access to CARTO's basemap tile services is restricted to CARTO enterprise customers only and is not available for free public use.**
 
-While the style code in this repository is open source, using **[CARTO's hosted basemap tiles](https://carto.com/basemaps)** requires a valid enterprise agreement with CARTO.
-
+While the style code in this repository is open source, using CARTO's hosted basemap tiles requires a valid enterprise agreement with CARTO. For more information, please visit https://carto.com/basemaps.
 
 # Code license: BSD 3-Clause License
 
