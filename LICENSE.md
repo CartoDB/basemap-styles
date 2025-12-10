@@ -3,7 +3,7 @@ All rights reserved.
 
 # IMPORTANT: CARTO Basemap Services
 
-**This repository contains the open-source style definitions for CARTO basemaps. However, access to CARTO's basemap tile services is restricted to CARTO enterprise customers only and is not available for free public use.**
+**This repository contains the open-source style definitions for CARTO basemaps. However, access to CARTO's basemap tile services is restricted to CARTO enterprise customers and [Non-Profit GRANTS](https://carto.com/grants) only and is not available for free public use.**
 
 While the style code in this repository is open source, using CARTO's hosted basemap tiles requires a valid enterprise agreement with CARTO. For more information, please visit https://carto.com/basemaps.
 
