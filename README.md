@@ -6,7 +6,7 @@ This repository has working copies of basemap cartographic styles for different 
 > **An API key is required to use CARTO basemaps.** Pass it as `?key=YOUR_KEY` on the tile
 > URL. Keys are free within the fair use limit — get one at https://carto.com/basemaps/apikey.
 > For pricing and the full terms of service, see https://carto.com/basemaps and
-> https://carto.com/legal/bmap
+> https://carto.com/legal/basemap-terms
 
 ## Source data
 
