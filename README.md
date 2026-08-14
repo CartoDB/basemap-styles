@@ -3,9 +3,10 @@ CARTO Basemap styles for web and mobile, raster and vector. Preview and compare 
 
 This repository has working copies of basemap cartographic styles for different targets
 
-> **An API key is required to use CARTO basemaps.** Keys are free within the fair use limit —
-> get one at https://carto.com/basemaps/key. For pricing and the full terms of service, see
-> https://carto.com/basemaps and https://carto.com/legal/bmap
+> **An API key is required to use CARTO basemaps.** Pass it as `?key=YOUR_KEY` on the tile
+> URL. Keys are free within the fair use limit — get one at https://carto.com/basemaps/apikey.
+> For pricing and the full terms of service, see https://carto.com/basemaps and
+> https://carto.com/legal/bmap
 
 ## Source data
 
@@ -28,7 +29,7 @@ All the styles are "soft" in a sense that they are meant to be used as backgroun
 > **Raster basemaps require an API key, and are being retired.**
 >
 > Requests without a key are served with an "API key required" watermark. Keys are **free**
-> for use within the fair use limit — request one at https://carto.com/basemaps/key.
+> for use within the fair use limit — request one at https://carto.com/basemaps/apikey.
 >
 > **New applications should use the vector basemaps in [section 3](#3-vector-styles-for-web)
 > instead.** They are sharper at every zoom and on high-DPI displays, restyleable at
