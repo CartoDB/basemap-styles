@@ -3,7 +3,9 @@ CARTO Basemap styles for web and mobile, raster and vector. Preview and compare 
 
 This repository has working copies of basemap cartographic styles for different targets
 
-> **Terms of service:** for more information about CARTO basemaps use, pricing and terms of service, please double check https://carto.com/basemaps
+> **An API key is required to use CARTO basemaps.** Keys are free within the fair use limit —
+> get one at https://carto.com/basemaps/key. For pricing and the full terms of service, see
+> https://carto.com/basemaps and https://carto.com/legal/bmap
 
 ## Source data
 
@@ -22,7 +24,18 @@ All the styles are "soft" in a sense that they are meant to be used as backgroun
 
 ## 1. Web raster basemaps
 
-Service public info: https://carto.com/location-data-services/basemaps/
+> [!IMPORTANT]
+> **Raster basemaps require an API key, and are being retired.**
+>
+> Requests without a key are served with an "API key required" watermark. Keys are **free**
+> for use within the fair use limit — request one at https://carto.com/basemaps/key.
+>
+> **New applications should use the vector basemaps in [section 3](#3-vector-styles-for-web)
+> instead.** They are sharper at every zoom and on high-DPI displays, restyleable at
+> runtime, and cheaper for us to serve. The raster cartography below may stop receiving data
+> updates, so the gap between the two will widen over time.
+
+Service public info: https://carto.com/basemaps
 The structure of the URLs to call the service is the following: `https://{s}.basemaps.cartocdn.com/{style}/{z}/{x}/{y}{scale}.png` , where:
  - {s}: one of the available subdomains, either [a,b,c,d]
  - {z} : Zoom level. We support from 0 to 20 zoom levels in OSM tiling system.
