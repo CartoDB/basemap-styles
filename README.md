@@ -4,9 +4,12 @@ CARTO Basemap styles for web and mobile, raster and vector. Preview and compare 
 This repository has working copies of basemap cartographic styles for different targets
 
 > **An API key is required to use CARTO basemaps.** Pass it as `?key=YOUR_KEY` on the tile
-> URL. Keys are free within the fair use limit — get one at https://carto.com/basemaps/apikey.
-> For pricing and the full terms of service, see https://carto.com/basemaps and
-> https://carto.com/legal/basemap-terms
+> URL. Keys are free for non-commercial use up to 5M tile requests a month and for commercial
+> use up to 1M a month; commercial use above that needs the Basemaps Commercial plan
+> (US$500/month or US$5,000/year, up to 10M/month), bought from the dashboard. CARTO platform
+> customers need nothing: basemaps are included in every CARTO plan. Get a key at
+> https://carto.com/basemaps/apikey/ ; pricing at https://carto.com/basemaps/apikey/#pricing ;
+> terms at https://carto.com/legal/basemap-terms/
 
 ## Source data
 
@@ -26,15 +29,15 @@ All the styles are "soft" in a sense that they are meant to be used as backgroun
 ## 1. Web raster basemaps
 
 > [!IMPORTANT]
-> **Raster basemaps require an API key, and are being retired.**
+> **Raster basemaps require an API key.**
 >
-> Requests without a key are served with an "API key required" watermark. Keys are **free**
-> for use within the fair use limit — request one at https://carto.com/basemaps/apikey.
+> Requests without a key are served with an "API key required" watermark. The same free tiers
+> and the same plan apply as for vector (see above) — request a key at
+> https://carto.com/basemaps/apikey/.
 >
-> **New applications should use the vector basemaps in [section 3](#3-vector-styles-for-web)
-> instead.** They are sharper at every zoom and on high-DPI displays, restyleable at
-> runtime, and cheaper for us to serve. The raster cartography below may stop receiving data
-> updates, so the gap between the two will widen over time.
+> **New applications should still prefer the vector basemaps in
+> [section 3](#3-vector-styles-for-web).** They are sharper at every zoom and on high-DPI
+> displays, restyleable at runtime, and cheaper to serve. Raster keeps receiving data updates.
 
 Service public info: https://carto.com/basemaps
 The structure of the URLs to call the service is the following: `https://{s}.basemaps.cartocdn.com/{style}/{z}/{x}/{y}{scale}.png` , where:
@@ -58,7 +61,8 @@ rastertiles/voyager_labels_under
 
 Sample with Leaflet JS:
 ```
-layer = L.tileLayer('https://{s}.basemaps.cartocdn.com/{z}/{x}/{y}' + (L.Browser.retina ? '@2x.png' : '.png'), {
+// YOUR_KEY is the API key from https://carto.com/basemaps/apikey/
+layer = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}' + (L.Browser.retina ? '@2x.png' : '.png') + '?key=YOUR_KEY', {
    attribution:'&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy; <a href="https://carto.com/attributions">CARTO</a>',
    subdomains: 'abcd',
    maxZoom: 20,
