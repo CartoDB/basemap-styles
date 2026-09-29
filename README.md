@@ -6,9 +6,7 @@ This repository has working copies of basemap cartographic styles for different 
 > **An API key is required to use CARTO basemaps.** Pass it as `?key=YOUR_KEY` on the tile
 > URL. Keys are free for non-commercial use up to 5M tile requests a month and for commercial
 > use up to 1M a month; commercial use above that needs a Basemaps Commercial plan, bought from
-> the dashboard: Commercial (US$500/month or US$5,000/year, up to 10M/month) or Commercial Plus
-> (US$1,500/month or US$15,000/year, up to 50M/month). CARTO platform
-> customers need nothing: basemaps are included in every CARTO plan. Get a key at
+> the dashboard (see pricing below). CARTO platform customers need nothing: basemaps are included in every CARTO plan. Get a key at
 > https://carto.com/basemaps/apikey/ ; pricing at https://carto.com/basemaps/apikey/#pricing ;
 > terms at https://carto.com/legal/basemap-terms/
 
