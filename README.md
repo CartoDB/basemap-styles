@@ -110,13 +110,16 @@ https://basemaps.cartocdn.com/gl/{style}-gl-style/style.json?key=YOUR_KEY
 where {style} is one of `voyager`, `voyager-nolabels`, `positron`, `positron-nolabels`, `dark-matter`, `dark-matter-nolabels`.
 The key is added to every URL inside the style.
 
-For a custom style, don't host the downloaded file as is: its tile, `glyphs` and `sprite` URLs point at a specific data
-release (`/v/<release>/`) that can be removed without notice. Point the vector source at the TileJSON, which always serves
-the current tiles, and host your own glyphs and sprite:
+A custom style is hosted by you, with your own glyphs (fonts) and sprite (icons). Only its vector source points to our
+TileJSON, which always serves the current tiles:
 
 ```
 "url": "https://tiles.basemaps.cartocdn.com/vector/carto.streets/v2/tiles.json?key=YOUR_KEY"
 ```
+
+You can download our style (`https://basemaps.cartocdn.com/gl/{style}-gl-style/style.json`) as a reference, to compare and
+see how we build it, but don't host it as is: its tile, `glyphs` and `sprite` URLs point at a specific data release
+(`/v/<release>/`) that can be removed without notice.
 
 ### Mapbox-gl style (legacy)
 * folder: **/mapboxgl**. Legacy OpenMapTiles (v1) styles, kept for reference; not maintained, and the v1 tileset gets no data updates.
