@@ -118,8 +118,7 @@ TileJSON, which always serves the current tiles:
 ```
 
 You can download our style (`https://basemaps.cartocdn.com/gl/{style}-gl-style/style.json`) as a reference, to compare and
-see how we build it, but don't host it as is: its tile, `glyphs` and `sprite` URLs point at a specific data release
-(`/v/<release>/`) that can be removed without notice.
+see how we build it. You can also host a copy of it as is, but its tile, `glyphs` and `sprite` URLs (under `/v/<release>/`) are dynamic and change, so a hosted copy can break at any time; to stay current, use our style URL with `?key=`.
 
 ### Mapbox-gl style (legacy)
 * folder: **/mapboxgl**. Legacy OpenMapTiles (v1) styles, kept for reference; not maintained, and the v1 tileset gets no data updates.
