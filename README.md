@@ -12,7 +12,12 @@ This repository has working copies of basemap cartographic styles for different 
 
 ## Source data
 
-The styles are based on current version of OpenMapTiles data schema and vector tiles: https://openmaptiles.org/schema 
+Since 2026-10-21 the vector basemaps are served on the Protomaps basemap schema: TileJSON
+`https://tiles.basemaps.cartocdn.com/vector/carto.streets/v2/tiles.json?key=YOUR_KEY`, layers documented at
+https://docs.protomaps.com/basemaps/layers
+
+The styles in **/mapboxgl** are the legacy OpenMapTiles (v1) styles. The v1 tileset is deprecated and has had no data
+updates since December 2025.
 
 ## The cartography
 
@@ -96,8 +101,18 @@ Every style has following unique files:
 * Note that MBStudio generated .xml is **not** used in mobile
 
 ## 3. Vector styles for web
-### Mapbox-gl style
-* folder: **/mapboxgl**
+Use the served style directly, with your key, in MapLibre GL JS, deck.gl or any client that reads a style URL:
+
+```
+https://basemaps.cartocdn.com/gl/{style}-gl-style/style.json?key=YOUR_KEY
+```
+
+where {style} is one of `voyager`, `voyager-nolabels`, `positron`, `positron-nolabels`, `dark-matter`, `dark-matter-nolabels`.
+The key is added to every URL inside the style. A downloaded copy of the style stays on the data release it was downloaded
+with and stops getting updates; prefer the URL.
+
+### Mapbox-gl style (legacy)
+* folder: **/mapboxgl**. Legacy OpenMapTiles (v1) styles, kept for reference; not maintained, and the v1 tileset gets no data updates.
 * Master style is file **/tools/style_tpl.json** . It uses template placeholders for variable values for different styles
 * Different styles are **/style-name/style-name_vars.json** files
 * You should use **tools/styler.py** script to generate specific style from template and *_vars.json* file. The ready-made style-name.json files are generated and for reference only.
