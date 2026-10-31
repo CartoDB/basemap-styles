@@ -45,11 +45,11 @@ All the styles are "soft" in a sense that they are meant to be used as backgroun
 
 Service public info: https://carto.com/basemaps
 The structure of the URLs to call the service is the following: `https://{s}.basemaps.cartocdn.com/{style}/{z}/{x}/{y}{scale}.png` , where:
- - {s}: one of the available subdomains, either [a,b,c,d]
- - {z} : Zoom level. We support from 0 to 20 zoom levels in OSM tiling system.
- - {x},{y}: Tile coordinates in OSM tiling system
- - {scale}: OPTIONAL "@2x" for double resolution tiles
- - {style}: Map style, possible value is one of:
+ - `{s}`: one of the available subdomains, either [a,b,c,d]
+ - `{z}` : Zoom level. We support from 0 to 20 zoom levels in OSM tiling system.
+ - `{x}`,`{y}`: Tile coordinates in OSM tiling system
+ - `{scale}`: OPTIONAL `@2x` for double resolution tiles
+ - `{style}`: Map style, possible value is one of:
 ```
 light_all,
 dark_all,
@@ -64,7 +64,7 @@ rastertiles/voyager_labels_under
 ```
 
 Sample with Leaflet JS:
-```
+``` js
 // YOUR_KEY is the API key from https://carto.com/basemaps/apikey/
 layer = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}' + (L.Browser.retina ? '@2x.png' : '.png') + '?key=YOUR_KEY', {
    attribution:'&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy; <a href="https://carto.com/attributions">CARTO</a>',
@@ -113,7 +113,7 @@ The key is added to every URL inside the style.
 A custom style is hosted by you, with your own glyphs (fonts) and sprite (icons). Only its vector source points to our
 TileJSON, which always serves the current tiles:
 
-```
+``` js
 "url": "https://tiles.basemaps.cartocdn.com/vector/carto.streets/v2/tiles.json?key=YOUR_KEY"
 ```
 
